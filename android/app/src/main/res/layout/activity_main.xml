@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="16dp">
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Egzamin kwalifikacyjny URE — grupa G1"
+            android:textColor="@color/akcent" android:textSize="21sp" android:textStyle="bold" />
+
+        <TextView android:id="@+id/txtPodsumowanie"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="4dp" android:textColor="@color/szary" android:textSize="13sp" />
+
+        <!-- FILTRY -->
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="vertical" android:background="@drawable/tlo_karty"
+            android:padding="14dp" android:layout_marginTop="16dp">
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="ZAKRES UPRAWNIEŃ" android:textColor="@color/szary"
+                android:textSize="11sp" android:textStyle="bold" />
+            <Spinner android:id="@+id/spZakres" android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:layout_marginTop="2dp" />
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="DZIAŁ" android:textColor="@color/szary" android:layout_marginTop="10dp"
+                android:textSize="11sp" android:textStyle="bold" />
+            <Spinner android:id="@+id/spDzial" android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:layout_marginTop="2dp" />
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="LICZBA PYTAŃ" android:textColor="@color/szary" android:layout_marginTop="10dp"
+                android:textSize="11sp" android:textStyle="bold" />
+            <Spinner android:id="@+id/spIle" android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:layout_marginTop="2dp" />
+
+            <TextView android:id="@+id/txtPula" android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:layout_marginTop="8dp"
+                android:textColor="@color/akcent" android:textSize="13sp" android:textStyle="bold" />
+        </LinearLayout>
+
+        <Button android:id="@+id/btnNauka" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="16dp"
+            android:text="TRYB NAUKI" android:textSize="15sp"
+            android:background="@color/akcent" android:textColor="#FFFFFF" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Wyjaśnienie i podstawa prawna od razu po każdej odpowiedzi."
+            android:textColor="@color/szary" android:textSize="12sp" android:layout_marginTop="3dp" />
+
+        <Button android:id="@+id/btnEgzamin" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="14dp"
+            android:text="EGZAMIN PRÓBNY" android:textSize="15sp"
+            android:background="@color/akcent_jasny" android:textColor="#FFFFFF" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Wynik i omówienie dopiero na końcu. Próg zaliczenia 75%."
+            android:textColor="@color/szary" android:textSize="12sp" android:layout_marginTop="3dp" />
+
+        <Button android:id="@+id/btnBledy" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="14dp"
+            android:text="POWTÓRKA BŁĘDÓW" android:textSize="15sp" />
+
+        <Button android:id="@+id/btnReset" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="22dp"
+            android:text="Wyczyść postępy" android:textSize="13sp"
+            android:background="@android:color/transparent" android:textColor="@color/zle" />
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="18dp" android:textColor="@color/szary" android:textSize="11sp"
+            android:text="Pytania opracowane na podstawie aktów normatywnych (Dz.U. 2019 poz. 1830, Dz.U. 2022 poz. 1392, Prawo energetyczne, Kodeks pracy, Prawo budowlane). Egzamin URE ma formę USTNĄ — ucz się, mówiąc odpowiedzi na głos." />
+    </LinearLayout>
+</ScrollView>

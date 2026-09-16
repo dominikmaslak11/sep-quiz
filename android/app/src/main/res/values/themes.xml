@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.SepQuiz" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/akcent</item>
+        <item name="colorPrimaryDark">@color/akcent</item>
+        <item name="colorAccent">@color/akcent_jasny</item>
+        <item name="android:windowBackground">@color/tlo</item>
+        <item name="android:textColorPrimary">@color/tekst</item>
+    </style>
+</resources>

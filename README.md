@@ -102,6 +102,51 @@ python3 pytania.py     # waliduje bank i przebudowuje pytania.json
 Walidacja sprawdza duplikaty identyfikatorów, liczbę odpowiedzi, poprawność działu
 i podstawy prawnej oraz obecność wyjaśnienia.
 
+## Aplikacja na Androida
+
+W katalogu `android/` jest natywna aplikacja w Kotlinie. Czyta **ten sam `pytania.json`**
+co wersja terminalowa — jedno źródło prawdy, więc nie da się rozjechać obu wersji.
+
+| | |
+|---|---|
+| `minSdk` | **24** — działa od Androida 7 w górę |
+| `targetSdk` / `compileSdk` | 34 |
+| zależności | tylko `androidx.appcompat` — bez Compose, bez bibliotek sieciowych |
+| uprawnienia | **żadne** — aplikacja działa w pełni offline |
+| rozmiar | ok. 3 MB |
+
+> ⚠ **`minSdk` celowo ustawiony nisko.** Telefon docelowy to Samsung M21 z Androidem 12 (API 31).
+> Podnoszenie `minSdk` powyżej 31 odetnie to urządzenie — ten sam błąd wcześniej zablokował
+> aktualizację innej aplikacji na tym telefonie.
+
+### Budowanie
+
+```bash
+./zbuduj-apk.sh        # przebudowuje pytania.json, kopiuje do assets i składa APK
+```
+
+Wymaga Android SDK (`ANDROID_HOME`) i JDK 21. Gotowy plik: `SEP-Quiz-G1-v1.0.apk`.
+
+### Instalacja na telefonie
+
+**Przez USB:**
+```bash
+adb install -r SEP-Quiz-G1-v1.0.apk
+```
+
+**Bez kabla:** skopiuj plik APK na telefon, otwórz go menedżerem plików i zezwól
+na instalację z nieznanych źródeł. APK jest podpisany kluczem debugowym, więc Android
+pokaże ostrzeżenie — to normalne przy aplikacji spoza sklepu.
+
+### Co umie
+
+- **Tryb nauki** — wyjaśnienie i podstawa prawna od razu po odpowiedzi
+- **Egzamin próbny** — wynik i omówienie dopiero na końcu, próg 75%
+- **Powtórka błędów** — wyłącznie pytania, które wcześniej poszły źle
+- filtry: zakres D/E, dział, liczba pytań
+- postępy i skuteczność zapisywane między uruchomieniami
+- rozbicie błędów według działu, żeby było widać, czego się douczyć
+
 ## ⚠ Zastrzeżenie
 
 Materiał pomocniczy do samodzielnej nauki. **Egzamin kwalifikacyjny URE ma formę ustną**,
