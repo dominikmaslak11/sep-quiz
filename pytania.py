@@ -11,15 +11,23 @@ KATALOG = pathlib.Path(__file__).resolve().parent
 sys.path.insert(0, str(KATALOG))
 
 from zrodla import ZRODLA, DZIALY          # noqa: E402
-import bank_1, bank_2, bank_3              # noqa: E402
 
 SEED = 20260929   # data egzaminu — staly seed, zeby eksport byl powtarzalny
 
 
 def zbierz():
-    pytania = []
-    for modul in (bank_1, bank_2, bank_3):
-        pytania.extend(modul.P)
+    """Wczytuje KAZDY plik bank_*.py z katalogu projektu, ktory definiuje liste P.
+
+    Dzieki temu dolozenie nowej partii pytan nie wymaga zmian w tym pliku.
+    """
+    import importlib
+    pytania, zrodla = [], []
+    for plik in sorted(KATALOG.glob("bank_*.py")):
+        modul = importlib.import_module(plik.stem)
+        if hasattr(modul, "P"):
+            pytania.extend(modul.P)
+            zrodla.append(f"{plik.stem} ({len(modul.P)})")
+    print("  banki: " + ", ".join(zrodla))
     return pytania
 
 

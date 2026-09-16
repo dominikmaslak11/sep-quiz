@@ -5,8 +5,8 @@ Narzędzie do przygotowania się do egzaminu kwalifikacyjnego URE dla grupy **G1
 
 Powstało przed egzaminem **dozór G1 w dniu 29.09.2026**.
 
-- **78 pytań** z odpowiedziami i wyjaśnieniami, w 10 działach
-- **28 pytań oznaczonych wyłącznie jako dozorowe** — organizacja pracy, polecenia, dokumentacja
+- **174 pytania** z odpowiedziami i wyjaśnieniami, w 10 działach
+- **83 pytania oznaczone wyłącznie jako dozorowe** — organizacja pracy, polecenia, dokumentacja
 - interaktywny **quiz w terminalu** z zapisem postępów i powtórką błędów
 - generator **arkuszy egzaminacyjnych w PDF** wraz z kluczem odpowiedzi
 
@@ -26,6 +26,8 @@ Podstawą są w szczególności:
 | `KWAL2022` | Rozporządzenie MKiŚ z 1.07.2022 w sprawie zasad stwierdzania kwalifikacji (Dz.U. 2022 poz. 1392) |
 | `PE` | Ustawa — Prawo energetyczne |
 | `KP` | Kodeks pracy, dział X |
+| `BHP1997` | Rozporządzenie MPiPS z 26.09.1997 w sprawie ogólnych przepisów BHP (Dz.U. 2003 nr 169 poz. 1650) |
+| `ATEX` | Rozporządzenie Ministra Rozwoju z 06.06.2016 w sprawie urządzeń do atmosfer potencjalnie wybuchowych (Dz.U. 2016 poz. 817) |
 | `PB` / `WT2002` | Prawo budowlane i warunki techniczne |
 | `PN60364`, `PN61140`, `PN60529`, `PN62305` | normy przywołane opisowo |
 
@@ -91,7 +93,8 @@ Wynik trafia do `egzaminy/`: arkusz z miejscem na podpis i wynik oraz osobny
 
 ## Jak dopisać własne pytania
 
-Otwórz `bank_1.py`, `bank_2.py` albo `bank_3.py` i dopisz wpis w tym samym formacie.
+Otwórz dowolny plik `bank_*.py` i dopisz wpis w tym samym formacie — albo załóż nowy
+plik o nazwie zaczynającej się od `bank_`, bo `pytania.py` wykrywa banki automatycznie.
 **Poprawna odpowiedź jest zawsze pierwsza na liście** — przy eksporcie odpowiedzi są
 tasowane deterministycznie, więc w `pytania.json` nie widać wzorca. Potem:
 

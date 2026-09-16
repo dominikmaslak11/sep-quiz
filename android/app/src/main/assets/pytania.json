@@ -1403,6 +1403,1679 @@
       "poprawna": 3,
       "wyjasnienie": "Egzamin ma formę ustną. Dlatego przygotowanie polega na umiejętności wytłumaczenia procedury, a nie na rozpoznaniu poprawnej odpowiedzi z listy.",
       "podstawa": "KWAL2022"
+    },
+    {
+      "id": "I-19",
+      "dzial": "I",
+      "zakres": [
+        "D"
+      ],
+      "pytanie": "Kto może pełnić funkcję kierującego zespołem?",
+      "odpowiedzi": [
+        "Przedstawiciel służby BHP",
+        "Dowolny członek zespołu wybrany przez pozostałych",
+        "Wyłącznie osoba z uprawnieniami dozoru",
+        "Osoba wyznaczona w poleceniu, posiadająca odpowiednie kwalifikacje i znajomość zagrożeń"
+      ],
+      "poprawna": 3,
+      "wyjasnienie": "Kierującego wyznacza poleceniodawca w treści polecenia. Kierujący odpowiada za bezpieczeństwo zespołu w trakcie pracy i może ją przerwać.",
+      "podstawa": "BHP2019"
+    },
+    {
+      "id": "I-20",
+      "dzial": "I",
+      "zakres": [
+        "D"
+      ],
+      "pytanie": "Czy jedna osoba może łączyć funkcje dopuszczającego i kierującego zespołem?",
+      "odpowiedzi": [
+        "Tak, jeżeli pozwala na to organizacja pracy u prowadzącego eksploatację i osoba ma odpowiednie kwalifikacje",
+        "Nie, jest to zawsze zabronione",
+        "Tak, zawsze i bez żadnych warunków",
+        "Tak, ale tylko przy pracach do 1 kV"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Łączenie funkcji jest dopuszczalne w określonych przypadkach, ale nie wolno łączyć ich dowolnie. Zasady musi określać organizacja pracy u prowadzącego eksploatację.",
+      "podstawa": "BHP2019"
+    },
+    {
+      "id": "I-21",
+      "dzial": "I",
+      "zakres": [
+        "D"
+      ],
+      "pytanie": "Ile egzemplarzy polecenia pisemnego się sporządza i kto je otrzymuje?",
+      "odpowiedzi": [
+        "Cztery, po jednym dla każdej osoby funkcyjnej",
+        "Liczba jest dowolna",
+        "Jeden, który zostaje w aktach",
+        "Co najmniej dwa — jeden zostaje u poleceniodawcy, drugi otrzymuje kierujący zespołem lub dopuszczający"
+      ],
+      "poprawna": 3,
+      "wyjasnienie": "Egzemplarze rozdziela się tak, aby osoby odpowiedzialne miały dokument przy sobie. Polecenia przechowuje się przez okres określony przez prowadzącego eksploatację.",
+      "podstawa": "BHP2019"
+    },
+    {
+      "id": "I-22",
+      "dzial": "I",
+      "zakres": [
+        "D"
+      ],
+      "pytanie": "Co należy zrobić, gdy praca na polecenie przeciąga się na następną zmianę?",
+      "odpowiedzi": [
+        "Zakończyć pracę i rozpocząć nową na nowym poleceniu bez żadnych formalności",
+        "Przekazać pracę zgodnie z ustaloną procedurą, z odnotowaniem stanu zabezpieczeń",
+        "Kontynuować bez żadnych czynności",
+        "Zdjąć wszystkie zabezpieczenia na czas zmiany"
+      ],
+      "poprawna": 1,
+      "wyjasnienie": "Zdjęcie zabezpieczeń między zmianami byłoby groźnym błędem. Przekazanie musi obejmować stan strefy pracy i zabezpieczeń.",
+      "podstawa": "BHP2019"
+    },
+    {
+      "id": "I-23",
+      "dzial": "I",
+      "zakres": [
+        "D",
+        "E"
+      ],
+      "pytanie": "Które prace zalicza się do szczególnie niebezpiecznych przy urządzeniach energetycznych?",
+      "odpowiedzi": [
+        "Prace pod napięciem, w pobliżu napięcia oraz w warunkach szczególnego zagrożenia",
+        "Prace trwające dłużej niż osiem godzin",
+        "Wszystkie prace konserwacyjne",
+        "Wyłącznie prace na wysokości"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Takie prace wymagają polecenia pisemnego, co najmniej dwóch osób i szczególnych środków zabezpieczających.",
+      "podstawa": "BHP2019"
+    },
+    {
+      "id": "I-24",
+      "dzial": "I",
+      "zakres": [
+        "D"
+      ],
+      "pytanie": "Czym różni się praca w pobliżu napięcia od pracy pod napięciem?",
+      "odpowiedzi": [
+        "To dwa określenia tej samej sytuacji",
+        "Praca pod napięciem dotyczy wyłącznie urządzeń powyżej 1 kV",
+        "Praca w pobliżu napięcia nie wymaga żadnych zabezpieczeń",
+        "Przy pracy w pobliżu nie dotyka się części czynnych, ale można znaleźć się w strefie niebezpiecznej"
+      ],
+      "poprawna": 3,
+      "wyjasnienie": "Obie są niebezpieczne, ale wymagają innych środków. Przy pracy w pobliżu stosuje się osłony i wygrodzenia, przy pracy pod napięciem specjalną technologię i sprzęt.",
+      "podstawa": "BHP2019"
+    },
+    {
+      "id": "I-25",
+      "dzial": "I",
+      "zakres": [
+        "D",
+        "E"
+      ],
+      "pytanie": "Jakie oznaczenia stosuje się przy wyłączonych łącznikach w strefie pracy?",
+      "odpowiedzi": [
+        "Oznaczenia kolorystyczne przewodów",
+        "Tablice ostrzegawcze zakazujące załączania, np. „Nie załączać — pracują ludzie”",
+        "Wyłącznie taśmę ostrzegawczą",
+        "Żadne, wystarczy wyłączenie"
+      ],
+      "poprawna": 1,
+      "wyjasnienie": "Oprócz tablic stosuje się blokady mechaniczne łączników. Samo wyłączenie nie chroni przed przypadkowym załączeniem przez inną osobę.",
+      "podstawa": "BHP2019"
+    },
+    {
+      "id": "I-26",
+      "dzial": "I",
+      "zakres": [
+        "D"
+      ],
+      "pytanie": "Kto może zdjąć zabezpieczenia i uziemienia po zakończeniu pracy?",
+      "odpowiedzi": [
+        "Poleceniodawca telefonicznie",
+        "Każdy członek zespołu",
+        "Dopuszczający albo osoba przez niego upoważniona, po wyprowadzeniu zespołu ze strefy",
+        "Kierujący zespołem w dowolnym momencie"
+      ],
+      "poprawna": 2,
+      "wyjasnienie": "Kolejność jest krytyczna: najpierw zespół opuszcza strefę, dopiero potem znikają zabezpieczenia. Odwrotna kolejność to bezpośrednie zagrożenie życia.",
+      "podstawa": "BHP2019"
+    },
+    {
+      "id": "I-27",
+      "dzial": "I",
+      "zakres": [
+        "D"
+      ],
+      "pytanie": "Czy osoba dozoru może dopuścić do pracy pracownika bez aktualnych badań lekarskich?",
+      "odpowiedzi": [
+        "Nie, brak aktualnych badań wyklucza dopuszczenie do pracy",
+        "Tak, jeżeli pracownik czuje się dobrze",
+        "Tak, przy pracach do 1 kV",
+        "Tak, na własną odpowiedzialność pracownika"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "To obowiązek bezwzględny wynikający z Kodeksu pracy. Dopuszczenie bez badań obciąża osobę kierującą pracownikami.",
+      "podstawa": "KP"
+    },
+    {
+      "id": "I-28",
+      "dzial": "I",
+      "zakres": [
+        "D"
+      ],
+      "pytanie": "Jakie szkolenia BHP są wymagane przed dopuszczeniem pracownika do pracy?",
+      "odpowiedzi": [
+        "Żadne, jeżeli pracownik ma doświadczenie",
+        "Wyłącznie szkolenie okresowe",
+        "Szkolenie wstępne: instruktaż ogólny i stanowiskowy",
+        "Wyłącznie instruktaż ogólny"
+      ],
+      "poprawna": 2,
+      "wyjasnienie": "Szkolenie okresowe przychodzi później i powtarza się w ustalonych odstępach. Bez instruktażu stanowiskowego nie wolno dopuścić do pracy.",
+      "podstawa": "KP"
+    },
+    {
+      "id": "I-29",
+      "dzial": "I",
+      "zakres": [
+        "D",
+        "E"
+      ],
+      "pytanie": "Co zrobić, gdy w trakcie pracy okaże się, że zakres prac wykracza poza polecenie?",
+      "odpowiedzi": [
+        "Wykonać dodatkowe prace i odnotować to po fakcie",
+        "Kontynuować, jeżeli zgodzi się kierujący zespołem",
+        "Przerwać pracę i uzyskać nowe lub zmienione polecenie",
+        "Zgłosić to dopiero na koniec zmiany"
+      ],
+      "poprawna": 2,
+      "wyjasnienie": "Polecenie określa zakres pracy, a wyjście poza niego oznacza pracę bez zabezpieczeń przewidzianych dla nowych czynności.",
+      "podstawa": "BHP2019"
+    },
+    {
+      "id": "I-30",
+      "dzial": "I",
+      "zakres": [
+        "D"
+      ],
+      "pytanie": "Co powinna zawierać organizacja pracy przy urządzeniach energetycznych ustalona przez prowadzącego eksploatację?",
+      "odpowiedzi": [
+        "Wykaz prac na polecenie, wykaz osób upoważnionych oraz zasady łączenia funkcji",
+        "Wyłącznie listę pracowników",
+        "Wyłącznie schemat zasilania",
+        "Wyłącznie harmonogram przeglądów"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "To dokument, na który komisja często pyta osoby dozoru. Bez wykazów i zasad nie da się prawidłowo wydawać poleceń.",
+      "podstawa": "BHP2019"
+    },
+    {
+      "id": "I-31",
+      "dzial": "I",
+      "zakres": [
+        "D",
+        "E"
+      ],
+      "pytanie": "Jak należy postąpić przed przystąpieniem do pracy przy urządzeniu zasilanym z dwóch stron?",
+      "odpowiedzi": [
+        "Wyłączyć zasilanie po jednej stronie i uziemić",
+        "Wystarczy zgłoszenie do dyspozytora",
+        "Wyłączyć i zabezpieczyć zasilanie ze WSZYSTKICH stron, a brak napięcia sprawdzić po każdej",
+        "Wyłączyć zasilanie podstawowe, rezerwowe wystarczy oznaczyć"
+      ],
+      "poprawna": 2,
+      "wyjasnienie": "Pominięcie zasilania rezerwowego, agregatu albo instalacji fotowoltaicznej to jedna z najczęstszych przyczyn wypadków porażeniowych.",
+      "podstawa": "BHP2019"
+    },
+    {
+      "id": "I-32",
+      "dzial": "I",
+      "zakres": [
+        "D"
+      ],
+      "pytanie": "Czy polecenie ustne wymaga odnotowania?",
+      "odpowiedzi": [
+        "Tak, powinno być odnotowane w sposób ustalony u prowadzącego eksploatację",
+        "Tak, ale tylko przy pracach powyżej 1 kV",
+        "Nie, polecenie ustne nie wymaga żadnego śladu",
+        "Tylko wtedy, gdy praca trwa dłużej niż zmiana"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Odnotowanie pozwala odtworzyć, kto i na co pozwolił. Brak śladu jest problemem przy ustalaniu odpowiedzialności po zdarzeniu.",
+      "podstawa": "BHP2019"
+    },
+    {
+      "id": "I-33",
+      "dzial": "I",
+      "zakres": [
+        "D"
+      ],
+      "pytanie": "Kiedy pracodawca ma obowiązek zapewnić środki ochrony indywidualnej?",
+      "odpowiedzi": [
+        "Zawsze, niezależnie od środków zbiorowych",
+        "Wyłącznie przy pracy na wysokości",
+        "Tylko na wyraźne żądanie pracownika",
+        "Gdy nie da się uniknąć zagrożenia ani ograniczyć go środkami ochrony zbiorowej"
+      ],
+      "poprawna": 3,
+      "wyjasnienie": "Środki indywidualne są ostatnie w hierarchii. Najpierw eliminacja zagrożenia, potem ochrona zbiorowa, potem organizacja pracy.",
+      "podstawa": "BHP1997"
+    },
+    {
+      "id": "I-34",
+      "dzial": "I",
+      "zakres": [
+        "D",
+        "E"
+      ],
+      "pytanie": "Jakie warunki musi spełniać sprzęt ochronny używany przy pracach elektrycznych?",
+      "odpowiedzi": [
+        "Wystarczy oznaczenie napięcia znamionowego",
+        "Wystarczy, że jest nowy",
+        "Nie podlega żadnym badaniom",
+        "Musi mieć aktualne badania okresowe i być sprawny technicznie"
+      ],
+      "poprawna": 3,
+      "wyjasnienie": "Rękawice i drążki izolacyjne podlegają okresowym badaniom napięciowym. Sprzęt po terminie badań traktuje się jak niesprawny.",
+      "podstawa": "BHP2019"
+    },
+    {
+      "id": "I-35",
+      "dzial": "I",
+      "zakres": [
+        "D"
+      ],
+      "pytanie": "Kto ustala terminy oględzin, przeglądów i badań urządzeń energetycznych?",
+      "odpowiedzi": [
+        "Prowadzący eksploatację, z uwzględnieniem wymagań producenta i przepisów",
+        "Nikt, terminy są dowolne",
+        "Urząd Dozoru Technicznego",
+        "Wyłącznie producent urządzenia"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Instrukcja eksploatacji określa te terminy, a osoba dozoru pilnuje ich dotrzymania i zatwierdza protokoły.",
+      "podstawa": "PE"
+    },
+    {
+      "id": "I-36",
+      "dzial": "I",
+      "zakres": [
+        "D"
+      ],
+      "pytanie": "Co oznacza pojęcie strefy niebezpiecznej przy urządzeniach elektroenergetycznych?",
+      "odpowiedzi": [
+        "Pomieszczenie rozdzielni",
+        "Przestrzeń wokół części czynnych, w której zbliżenie grozi porażeniem",
+        "Obszar oznaczony taśmą, niezależnie od napięcia",
+        "Cały teren zakładu"
+      ],
+      "poprawna": 1,
+      "wyjasnienie": "Wymiary strefy zależą od napięcia — im wyższe, tym większa odległość bezpieczna. Przy urządzeniach do 1 kV jest ona niewielka, ale istnieje.",
+      "podstawa": "BHP2019"
+    },
+    {
+      "id": "II-13",
+      "dzial": "II",
+      "zakres": [
+        "D",
+        "E"
+      ],
+      "pytanie": "Co oznacza układ sieci TN-C-S?",
+      "odpowiedzi": [
+        "Każdy odbiornik ma własny uziom",
+        "Punkt neutralny źródła jest izolowany",
+        "Przewód PEN jest rozdzielony na PE i N w pewnym punkcie instalacji i dalej już nie łączony",
+        "PEN jest wspólny na całej długości instalacji"
+      ],
+      "poprawna": 2,
+      "wyjasnienie": "Po rozdzieleniu PEN nie wolno go ponownie łączyć. Rozdzielenie jest warunkiem stosowania wyłączników różnicowoprądowych.",
+      "podstawa": "PN60364"
+    },
+    {
+      "id": "II-14",
+      "dzial": "II",
+      "zakres": [
+        "D",
+        "E"
+      ],
+      "pytanie": "Czym charakteryzuje się układ IT?",
+      "odpowiedzi": [
+        "Obudowy nie są uziemiane",
+        "Punkt neutralny źródła jest izolowany od ziemi lub uziemiony przez dużą impedancję",
+        "Punkt neutralny jest uziemiony bezpośrednio",
+        "Nie stosuje się w nim przewodów ochronnych"
+      ],
+      "poprawna": 1,
+      "wyjasnienie": "Pierwsze zwarcie doziemne nie powoduje przerwy w zasilaniu, dlatego układ stosuje się tam, gdzie ciągłość jest krytyczna, np. na salach operacyjnych. Wymaga stałej kontroli stanu izolacji.",
+      "podstawa": "PN60364"
+    },
+    {
+      "id": "II-15",
+      "dzial": "II",
+      "zakres": [
+        "D",
+        "E"
+      ],
+      "pytanie": "Jaki jest maksymalny czas wyłączenia w układzie TN dla obwodów rozdzielczych?",
+      "odpowiedzi": [
+        "1 s",
+        "0,2 s",
+        "5 s",
+        "0,4 s"
+      ],
+      "poprawna": 2,
+      "wyjasnienie": "Dla obwodów końcowych do 32 A przy 230 V obowiązuje 0,4 s. Obwody rozdzielcze mają dłuższy dopuszczalny czas, bo nie są bezpośrednio dotykane przez użytkownika.",
+      "podstawa": "PN60364"
+    },
+    {
+      "id": "II-16",
+      "dzial": "II",
+      "zakres": [
+        "D",
+        "E"
+      ],
+      "pytanie": "Co to jest ochrona przez separację elektryczną?",
+      "odpowiedzi": [
+        "Uziemienie obudowy odbiornika",
+        "Zasilanie odbiornika z transformatora separacyjnego, bez połączenia z ziemią",
+        "Zastosowanie podwójnej izolacji",
+        "Odizolowanie odbiornika od podłoża matą gumową"
+      ],
+      "poprawna": 1,
+      "wyjasnienie": "Brak połączenia z ziemią sprawia, że dotknięcie jednego przewodu nie zamyka obwodu. Warunek: do jednego transformatora podłącza się tylko jeden odbiornik.",
+      "podstawa": "PN60364"
+    },
+    {
+      "id": "II-17",
+      "dzial": "II",
+      "zakres": [
+        "D",
+        "E"
+      ],
+      "pytanie": "Czym różni się SELV od PELV?",
+      "odpowiedzi": [
+        "SELV dotyczy prądu stałego, PELV zmiennego",
+        "To dwa określenia tego samego układu",
+        "SELV ma wyższe napięcie",
+        "SELV nie ma połączenia z ziemią, PELV jest uziemiony"
+      ],
+      "poprawna": 3,
+      "wyjasnienie": "Oba to obwody bardzo niskiego napięcia zasilane ze źródła bezpiecznego. FELV to układ, który nie spełnia wszystkich wymagań i wymaga dodatkowej ochrony.",
+      "podstawa": "PN60364"
+    },
+    {
+      "id": "II-18",
+      "dzial": "II",
+      "zakres": [
+        "D",
+        "E"
+      ],
+      "pytanie": "Który wyłącznik różnicowoprądowy zadziała także przy prądzie stałym pulsującym i gładkim?",
+      "odpowiedzi": [
+        "Typu B",
+        "Każdy",
+        "Typu A",
+        "Typu AC"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Typ AC reaguje tylko na prąd przemienny, typ A dodatkowo na pulsujący stały, typ B także na gładki prąd stały. Ten ostatni jest wymagany m.in. przy falownikach fotowoltaicznych i ładowarkach samochodowych.",
+      "podstawa": "PN60364"
+    },
+    {
+      "id": "II-19",
+      "dzial": "II",
+      "zakres": [
+        "D"
+      ],
+      "pytanie": "Dlaczego w obwodzie z wyłącznikiem różnicowoprądowym nie wolno łączyć przewodu N z PE za wyłącznikiem?",
+      "odpowiedzi": [
+        "Bo część prądu roboczego ominie człon pomiarowy i wyłącznik będzie zbędnie wyzwalał lub nie zadziała",
+        "Bo zwiększy to opór pętli zwarcia",
+        "Bo spowoduje to przepalenie bezpiecznika",
+        "Bo jest to dozwolone i nic się nie stanie"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "RCD mierzy sumę prądów w przewodach roboczych. Połączenie N z PE za wyłącznikiem tworzy drogę obejścia i psuje pomiar. To częsty błąd wykonawczy.",
+      "podstawa": "PN60364"
+    },
+    {
+      "id": "II-20",
+      "dzial": "II",
+      "zakres": [
+        "D",
+        "E"
+      ],
+      "pytanie": "Urządzenie klasy ochronności III zasilane jest:",
+      "odpowiedzi": [
+        "Z izolacją podwójną",
+        "Bezpośrednio z sieci 230 V",
+        "Przez przewód ochronny PE",
+        "Napięciem bardzo niskim SELV lub PELV"
+      ],
+      "poprawna": 3,
+      "wyjasnienie": "Do urządzeń klasy III nie wolno podłączać przewodu ochronnego. Klasa 0, bez żadnej ochrony dodatkowej, jest w Polsce niedopuszczalna.",
+      "podstawa": "PN61140"
+    },
+    {
+      "id": "II-21",
+      "dzial": "II",
+      "zakres": [
+        "D",
+        "E"
+      ],
+      "pytanie": "Co oznacza druga cyfra w kodzie IP?",
+      "odpowiedzi": [
+        "Odporność mechaniczną",
+        "Stopień ochrony przed pyłem",
+        "Stopień ochrony przed wodą",
+        "Klasę ochronności urządzenia"
+      ],
+      "poprawna": 2,
+      "wyjasnienie": "Pierwsza cyfra dotyczy ciał stałych i pyłu, druga wody. Odporność na uderzenia opisuje osobny kod IK.",
+      "podstawa": "PN60529"
+    },
+    {
+      "id": "II-22",
+      "dzial": "II",
+      "zakres": [
+        "D"
+      ],
+      "pytanie": "Jaki stopień ochrony jest wymagany w strefie 1 łazienki, czyli nad wanną?",
+      "odpowiedzi": [
+        "IP20",
+        "IP68",
+        "Co najmniej IPX4",
+        "IPX0"
+      ],
+      "poprawna": 2,
+      "wyjasnienie": "Strefy w łazience mają rosnące wymagania w miarę zbliżania się do wanny. W strefie 0, czyli wewnątrz wanny, dopuszcza się wyłącznie SELV do 12 V.",
+      "podstawa": "PN60364"
+    },
+    {
+      "id": "II-23",
+      "dzial": "II",
+      "zakres": [
+        "D"
+      ],
+      "pytanie": "Jakie są trzy typy ograniczników przepięć i gdzie się je stosuje?",
+      "odpowiedzi": [
+        "Wszystkie typy montuje się w jednym miejscu",
+        "Typ 1 przy odbiorniku, typ 3 na wejściu",
+        "Typ zależy wyłącznie od mocy odbiornika",
+        "Typ 1 na wejściu obiektu, typ 2 w rozdzielnicy, typ 3 przy odbiorniku"
+      ],
+      "poprawna": 3,
+      "wyjasnienie": "Ochrona jest stopniowana — kolejne stopnie obniżają napięcie resztkowe. Między stopniami trzeba zachować odpowiednią długość przewodu albo zastosować dławik.",
+      "podstawa": "PN62305"
+    },
+    {
+      "id": "II-24",
+      "dzial": "II",
+      "zakres": [
+        "D",
+        "E"
+      ],
+      "pytanie": "Czemu służy dodatkowe połączenie wyrównawcze miejscowe w łazience?",
+      "odpowiedzi": [
+        "Zastąpieniu wyłącznika różnicowoprądowego",
+        "Zwiększeniu przekroju przewodu ochronnego",
+        "Wyrównaniu potencjałów części przewodzących dostępnych i obcych w tym pomieszczeniu",
+        "Obniżeniu rezystancji uziemienia budynku"
+      ],
+      "poprawna": 2,
+      "wyjasnienie": "Nawet przy awarii różnica potencjałów między wanną, rurami a obudową odbiornika pozostaje bezpieczna. To ochrona niezależna od zadziałania zabezpieczeń.",
+      "podstawa": "PN60364"
+    },
+    {
+      "id": "IV-11",
+      "dzial": "IV",
+      "zakres": [
+        "D",
+        "E"
+      ],
+      "pytanie": "Jakim napięciem probierczym mierzy się rezystancję izolacji obwodów SELV i PELV?",
+      "odpowiedzi": [
+        "50 V DC",
+        "500 V DC",
+        "1000 V DC",
+        "250 V DC"
+      ],
+      "poprawna": 3,
+      "wyjasnienie": "Wymagana rezystancja wynosi wtedy co najmniej 0,5 MΩ. Wyższe napięcie mogłoby uszkodzić urządzenia w obwodzie bardzo niskiego napięcia.",
+      "podstawa": "PN60364"
+    },
+    {
+      "id": "IV-12",
+      "dzial": "IV",
+      "zakres": [
+        "D",
+        "E"
+      ],
+      "pytanie": "Co należy zrobić z odbiornikami przed pomiarem rezystancji izolacji instalacji?",
+      "odpowiedzi": [
+        "Odłączyć je, bo mogą zafałszować wynik lub ulec uszkodzeniu",
+        "Pozostawić podłączone, ale wyłączone",
+        "Pozostawić podłączone i włączone",
+        "Nie ma to znaczenia dla pomiaru"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Urządzenia elektroniczne i ograniczniki przepięć mogą zostać uszkodzone napięciem probierczym 500 V, a równocześnie zaniżą zmierzoną rezystancję.",
+      "podstawa": "PN60364"
+    },
+    {
+      "id": "IV-13",
+      "dzial": "IV",
+      "zakres": [
+        "D",
+        "E"
+      ],
+      "pytanie": "Jaką metodą mierzy się rezystancję uziemienia?",
+      "odpowiedzi": [
+        "Miernikiem rezystancji izolacji",
+        "Metodą techniczną z dwiema elektrodami pomocniczymi albo metodą cęgową",
+        "Miernikiem pętli zwarcia",
+        "Wyłącznie omomierzem między uziomem a przewodem PE"
+      ],
+      "poprawna": 1,
+      "wyjasnienie": "Elektrody pomocnicze, prądowa i napięciowa, trzeba rozstawić w odpowiedniej odległości. Zbyt bliskie ustawienie zaniża wynik.",
+      "podstawa": "PN60364"
+    },
+    {
+      "id": "IV-14",
+      "dzial": "IV",
+      "zakres": [
+        "D"
+      ],
+      "pytanie": "Jak często wykonuje się pomiary ochronne w pomieszczeniach o zwiększonym zagrożeniu porażeniem?",
+      "odpowiedzi": [
+        "Co pięć lat, tak jak wszędzie",
+        "Tylko przy odbiorze instalacji",
+        "Częściej niż w zwykłych — okresy skraca się do jednego roku",
+        "Raz na dziesięć lat"
+      ],
+      "poprawna": 2,
+      "wyjasnienie": "Wilgoć, przewodzące podłoże i wysoka temperatura przyspieszają degradację izolacji. Osoba dozoru ustala terminy w instrukcji eksploatacji.",
+      "podstawa": "PN60364"
+    },
+    {
+      "id": "IV-15",
+      "dzial": "IV",
+      "zakres": [
+        "D",
+        "E"
+      ],
+      "pytanie": "Co oznacza zbyt wysoka zmierzona impedancja pętli zwarcia?",
+      "odpowiedzi": [
+        "Instalacja jest szczególnie bezpieczna",
+        "Rezystancja izolacji jest zbyt niska",
+        "Uziemienie jest zbyt dobre",
+        "Prąd zwarciowy może być za mały, by zabezpieczenie zadziałało w wymaganym czasie"
+      ],
+      "poprawna": 3,
+      "wyjasnienie": "Wtedy trzeba zwiększyć przekrój przewodu, skrócić obwód albo zastosować zabezpieczenie o mniejszym prądzie zadziałania lub wyłącznik różnicowoprądowy.",
+      "podstawa": "PN60364"
+    },
+    {
+      "id": "IV-16",
+      "dzial": "IV",
+      "zakres": [
+        "D"
+      ],
+      "pytanie": "Kto podpisuje protokół z pomiarów ochronnych i za co odpowiada?",
+      "odpowiedzi": [
+        "Inspektor nadzoru budowlanego",
+        "Nikt, protokół nie wymaga podpisu",
+        "Wyłącznie właściciel obiektu",
+        "Wykonujący pomiary, a osoba dozoru sprawdza i zatwierdza wniosek o przydatności do eksploatacji"
+      ],
+      "poprawna": 3,
+      "wyjasnienie": "To pytanie typowo dozorowe. Sam wynik liczbowy bez oceny i podpisu nie zamyka sprawy.",
+      "podstawa": "PN60364"
+    },
+    {
+      "id": "III-07",
+      "dzial": "III",
+      "zakres": [
+        "D",
+        "E"
+      ],
+      "pytanie": "Co oznacza oznaczenie grupy II w urządzeniach przeciwwybuchowych?",
+      "odpowiedzi": [
+        "Urządzenie przeznaczone do pracy poza górnictwem podziemnym",
+        "Urządzenie wyłącznie do kopalń metanowych",
+        "Urządzenie na napięcie powyżej 1 kV",
+        "Drugi stopień szczelności obudowy"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Grupa I to wyrobiska górnicze zagrożone metanem, grupa II cała reszta przemysłu. W grupie II wyróżnia się jeszcze kategorie 1G, 2G, 3G zależnie od strefy.",
+      "podstawa": "ATEX"
+    },
+    {
+      "id": "III-08",
+      "dzial": "III",
+      "zakres": [
+        "D"
+      ],
+      "pytanie": "Urządzenie kategorii 2G wolno stosować w strefie:",
+      "odpowiedzi": [
+        "Wyłącznie 2",
+        "Wyłącznie 0",
+        "We wszystkich, łącznie z 0",
+        "1 i 2"
+      ],
+      "poprawna": 3,
+      "wyjasnienie": "Kategoria 1G jest wymagana w strefie 0 i może pracować we wszystkich, 2G w strefach 1 i 2, 3G tylko w strefie 2. Zasada: wyższa kategoria obejmuje strefy niższe.",
+      "podstawa": "ATEX"
+    },
+    {
+      "id": "III-09",
+      "dzial": "III",
+      "zakres": [
+        "D",
+        "E"
+      ],
+      "pytanie": "Co oznacza grupa wybuchowości IIC?",
+      "odpowiedzi": [
+        "Najmniej wymagająca grupa gazów",
+        "Najbardziej wymagająca grupa, obejmująca wodór i acetylen",
+        "Oznaczenie stopnia ochrony obudowy",
+        "Grupa dla metanu"
+      ],
+      "poprawna": 1,
+      "wyjasnienie": "IIA to propan, IIB etylen, IIC wodór i acetylen. Urządzenie dla IIC nadaje się także do IIA i IIB, ale nie odwrotnie.",
+      "podstawa": "ATEX"
+    },
+    {
+      "id": "V-05",
+      "dzial": "V",
+      "zakres": [
+        "D"
+      ],
+      "pytanie": "Co grozi przy podłączeniu agregatu do instalacji budynku bez blokady wzajemnej?",
+      "odpowiedzi": [
+        "Nic, blokada jest zaleceniem, nie wymogiem",
+        "Podanie napięcia do sieci zewnętrznej i porażenie ekipy pracującej na linii",
+        "Przeciążenie odbiorników w budynku",
+        "Wyłącznie uszkodzenie agregatu"
+      ],
+      "poprawna": 1,
+      "wyjasnienie": "Zjawisko nazywa się zasilaniem zwrotnym. Blokada mechaniczna lub przełącznik z pozycją zerową są obowiązkowe.",
+      "podstawa": "BHP2019"
+    },
+    {
+      "id": "V-06",
+      "dzial": "V",
+      "zakres": [
+        "D",
+        "E"
+      ],
+      "pytanie": "Jak należy postąpić z agregatem prądotwórczym w czasie tankowania?",
+      "odpowiedzi": [
+        "Nie ma znaczenia, czy silnik pracuje",
+        "Wyłączyć silnik i odczekać na jego ostygnięcie",
+        "Tankować przy pracującym silniku, ale powoli",
+        "Tankować przy pracującym silniku, żeby nie stracić zasilania"
+      ],
+      "poprawna": 1,
+      "wyjasnienie": "Paliwo rozlane na gorący silnik lub układ wydechowy może się zapalić. To zagrożenie pożarowe, nie elektryczne.",
+      "podstawa": "BHP2019"
+    },
+    {
+      "id": "VI-08",
+      "dzial": "VI",
+      "zakres": [
+        "D",
+        "E"
+      ],
+      "pytanie": "Jak uwolnić porażonego spod działania prądu, gdy nie da się wyłączyć zasilania?",
+      "odpowiedzi": [
+        "Czekać na przyjazd pogotowia",
+        "Oblać wodą, żeby przerwać obwód",
+        "Chwycić go za ubranie gołymi rękami",
+        "Odciągnąć go przedmiotem izolacyjnym, stojąc na podłożu izolacyjnym"
+      ],
+      "poprawna": 3,
+      "wyjasnienie": "Ratownik nie może stać się drugą ofiarą. Suchy drewniany drążek, gumowa mata i sucha odzież to minimum.",
+      "podstawa": "KP"
+    },
+    {
+      "id": "VI-09",
+      "dzial": "VI",
+      "zakres": [
+        "D",
+        "E"
+      ],
+      "pytanie": "Jaka jest prawidłowa głębokość uciśnięć klatki piersiowej u osoby dorosłej?",
+      "odpowiedzi": [
+        "Tak głęboko, jak się da",
+        "2–3 cm",
+        "8–10 cm",
+        "5–6 cm"
+      ],
+      "poprawna": 3,
+      "wyjasnienie": "Przy częstości 100–120 uciśnięć na minutę. Zbyt płytkie uciśnięcia nie wytworzą przepływu krwi.",
+      "podstawa": "KP"
+    },
+    {
+      "id": "VI-10",
+      "dzial": "VI",
+      "zakres": [
+        "D"
+      ],
+      "pytanie": "Kiedy można użyć automatycznego defibrylatora AED?",
+      "odpowiedzi": [
+        "Nigdy przy porażeniu prądem",
+        "Wyłącznie przez lekarza",
+        "Zawsze, gdy ktoś stracił przytomność",
+        "Gdy poszkodowany jest nieprzytomny i nie oddycha prawidłowo — urządzenie samo ocenia rytm"
+      ],
+      "poprawna": 3,
+      "wyjasnienie": "AED prowadzi ratownika głosem i wyładowuje tylko przy rytmie do defibrylacji. Przed użyciem trzeba osuszyć klatkę piersiową i odsunąć się od poszkodowanego.",
+      "podstawa": "KP"
+    },
+    {
+      "id": "VI-11",
+      "dzial": "VI",
+      "zakres": [
+        "D",
+        "E"
+      ],
+      "pytanie": "Od czego zależy stopień obrażeń przy porażeniu prądem?",
+      "odpowiedzi": [
+        "Wyłącznie od mocy źródła",
+        "Od wartości prądu, czasu przepływu i drogi przez ciało",
+        "Od rodzaju obuwia poszkodowanego",
+        "Wyłącznie od napięcia"
+      ],
+      "poprawna": 1,
+      "wyjasnienie": "Najgroźniejsza jest droga przez klatkę piersiową, na przykład ręka–ręka albo ręka–nogi. Prąd rzędu 30 mA przepływający dłużej może wywołać migotanie komór.",
+      "podstawa": "KP"
+    },
+    {
+      "id": "VII-04",
+      "dzial": "VII",
+      "zakres": [
+        "D"
+      ],
+      "pytanie": "Jakie dodatkowe zagrożenie występuje przy piecach łukowych?",
+      "odpowiedzi": [
+        "Promieniowanie nadfioletowe i olśnienie łukiem, grożące uszkodzeniem wzroku",
+        "Wyłącznie hałas",
+        "Zagrożenie wybuchem pyłu",
+        "Brak zagrożeń poza porażeniem"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Łuk elektryczny emituje silny nadfiolet. Konieczne są filtry ochronne o odpowiednim stopniu zaciemnienia, tak jak przy spawaniu.",
+      "podstawa": "BHP2019"
+    },
+    {
+      "id": "VII-05",
+      "dzial": "VII",
+      "zakres": [
+        "D"
+      ],
+      "pytanie": "Dlaczego w pomieszczeniach elektrolizy konieczna jest wentylacja?",
+      "odpowiedzi": [
+        "Żeby chłodzić prostowniki",
+        "Bo wymagają tego przepisy przeciwpożarowe dotyczące wszystkich pomieszczeń",
+        "Bo elektrolit szybko paruje",
+        "Bo na elektrodach wydziela się wodór, tworzący z powietrzem mieszaninę wybuchową"
+      ],
+      "poprawna": 3,
+      "wyjasnienie": "Wodór jest lżejszy od powietrza i gromadzi się pod stropem. Dolna granica wybuchowości wynosi około 4% objętości.",
+      "podstawa": "BHP2019"
+    },
+    {
+      "id": "VIII-06",
+      "dzial": "VIII",
+      "zakres": [
+        "D"
+      ],
+      "pytanie": "Co powinien zawierać wyłącznik pożarowy prądu w budynku z instalacją fotowoltaiczną?",
+      "odpowiedzi": [
+        "Możliwość odłączenia także strony DC, blisko modułów",
+        "Wyłącznie sygnalizację świetlną",
+        "Wyłącznie odłączenie strony AC",
+        "Odłączenie licznika energii"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Odłączenie samego AC zostawia napięcie na całej trasie kabli DC. Stosuje się optymalizatory albo wyłączniki przy modułach.",
+      "podstawa": "PN60364"
+    },
+    {
+      "id": "VIII-07",
+      "dzial": "VIII",
+      "zakres": [
+        "D",
+        "E"
+      ],
+      "pytanie": "Jakiego typu wyłącznik różnicowoprądowy stosuje się w obwodzie falownika PV bez separacji galwanicznej?",
+      "odpowiedzi": [
+        "Typu B, reagujący także na gładki prąd stały",
+        "Typu AC",
+        "Typu A",
+        "Żadnego, RCD jest tam zbędny"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Falownik beztransformatorowy może wprowadzić do obwodu AC składową stałą, która oślepia wyłączniki typu AC i A.",
+      "podstawa": "PN60364"
+    },
+    {
+      "id": "VIII-08",
+      "dzial": "VIII",
+      "zakres": [
+        "D"
+      ],
+      "pytanie": "Gdzie należy lokalizować magazyn energii z ogniwami litowo-jonowymi?",
+      "odpowiedzi": [
+        "Na klatce schodowej, blisko wyjścia",
+        "Wyłącznie na zewnątrz budynku",
+        "W pomieszczeniu wydzielonym pożarowo, z wentylacją i detekcją, poza drogami ewakuacji",
+        "W dowolnym pomieszczeniu mieszkalnym"
+      ],
+      "poprawna": 2,
+      "wyjasnienie": "Pożar ogniw litowych podtrzymuje się samoczynnie i wydziela toksyczne gazy. Umieszczenie przy drodze ewakuacji odcinałoby ją w razie pożaru.",
+      "podstawa": "BHP2019"
+    },
+    {
+      "id": "IX-04",
+      "dzial": "IX",
+      "zakres": [
+        "D"
+      ],
+      "pytanie": "Czym są prądy błądzące przy trakcji prądu stałego?",
+      "odpowiedzi": [
+        "Zjawiskiem występującym wyłącznie w trakcji prądu zmiennego",
+        "Prądami powrotnymi płynącymi przez grunt, powodującymi korozję konstrukcji podziemnych",
+        "Prądami indukowanymi w taborze",
+        "Prądami zwarciowymi w podstacji"
+      ],
+      "poprawna": 1,
+      "wyjasnienie": "Część prądu powrotnego omija szyny i płynie gruntem. Powoduje to elektrochemiczną korozję rurociągów i zbrojenia.",
+      "podstawa": "BHP2019"
+    },
+    {
+      "id": "X-11",
+      "dzial": "X",
+      "zakres": [
+        "D",
+        "E"
+      ],
+      "pytanie": "Co się dzieje ze świadectwem kwalifikacyjnym po upływie pięciu lat?",
+      "odpowiedzi": [
+        "Jest ważne bezterminowo, jeśli praca jest ciągła",
+        "Wystarczy szkolenie okresowe bez egzaminu",
+        "Przedłuża się automatycznie",
+        "Traci ważność i trzeba ponownie przystąpić do egzaminu"
+      ],
+      "poprawna": 3,
+      "wyjasnienie": "Nie ma trybu przedłużenia bez egzaminu. Wniosek warto złożyć z wyprzedzeniem, żeby nie powstała przerwa w uprawnieniach.",
+      "podstawa": "KWAL2022"
+    },
+    {
+      "id": "X-12",
+      "dzial": "X",
+      "zakres": [
+        "D"
+      ],
+      "pytanie": "Czy pracodawca może wystąpić z wnioskiem o egzamin dla swojego pracownika?",
+      "odpowiedzi": [
+        "Tak, egzamin przeprowadza się na wniosek osoby zainteresowanej albo zatrudniającego ją pracodawcy",
+        "Tak, ale wtedy świadectwo należy do pracodawcy",
+        "Nie, wyłącznie osoba zainteresowana",
+        "Tak, ale tylko dla uprawnień dozorowych"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Świadectwo zawsze wydawane jest na osobę i pozostaje jej własnością niezależnie od tego, kto opłacił egzamin.",
+      "podstawa": "KWAL2022"
+    },
+    {
+      "id": "X-13",
+      "dzial": "X",
+      "zakres": [
+        "D"
+      ],
+      "pytanie": "Ile osób wchodzi w skład komisji kwalifikacyjnej przeprowadzającej egzamin?",
+      "odpowiedzi": [
+        "Trzy",
+        "Jedna",
+        "Pięć",
+        "Dwie"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Komisję powołuje Prezes URE. Egzamin ma formę ustną, a wynik ogłaszany jest bezpośrednio po nim.",
+      "podstawa": "PE"
+    },
+    {
+      "id": "X-14",
+      "dzial": "X",
+      "zakres": [
+        "D"
+      ],
+      "pytanie": "Kto może przeprowadzać okresową kontrolę instalacji elektrycznej w obiekcie budowlanym?",
+      "odpowiedzi": [
+        "Dowolny elektryk bez uprawnień",
+        "Osoba posiadająca kwalifikacje wymagane przy wykonywaniu dozoru nad eksploatacją urządzeń elektroenergetycznych",
+        "Właściciel obiektu osobiście",
+        "Wyłącznie pracownik zakładu energetycznego"
+      ],
+      "poprawna": 1,
+      "wyjasnienie": "To jedno z konkretnych zastosowań uprawnień dozorowych. Wyniki kontroli wpisuje się do książki obiektu budowlanego.",
+      "podstawa": "PB"
+    },
+    {
+      "id": "X-15",
+      "dzial": "X",
+      "zakres": [
+        "D"
+      ],
+      "pytanie": "Kto ponosi odpowiedzialność za stan bezpieczeństwa i higieny pracy w zakładzie?",
+      "odpowiedzi": [
+        "Pracodawca, a w zakresie powierzonym także osoby kierujące pracownikami",
+        "Wyłącznie służba BHP",
+        "Społeczny inspektor pracy",
+        "Wyłącznie pracownicy"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Służba BHP pełni funkcję doradczą i kontrolną, ale odpowiedzialności z pracodawcy nie zdejmuje. Osoba dozoru odpowiada w zakresie swoich zadań.",
+      "podstawa": "KP"
+    },
+    {
+      "id": "II-25",
+      "dzial": "II",
+      "zakres": [
+        "D",
+        "E"
+      ],
+      "pytanie": "Jaką funkcję pełni wyłącznik nadprądowy typu B w instalacji mieszkaniowej?",
+      "odpowiedzi": [
+        "Kompensuje moc bierną obwodu",
+        "Chroni przewody przed przeciążeniem i zwarciem, wyzwalając magnetycznie przy 3–5 krotności prądu znamionowego",
+        "Ogranicza przepięcia atmosferyczne",
+        "Chroni człowieka przed porażeniem prądem dotykowym"
+      ],
+      "poprawna": 1,
+      "wyjasnienie": "Charakterystyka B jest właściwa dla obwodów odbiorczych bez dużych prądów rozruchowych. Do silników stosuje się C lub D.",
+      "podstawa": "PN60364"
+    },
+    {
+      "id": "II-26",
+      "dzial": "II",
+      "zakres": [
+        "D"
+      ],
+      "pytanie": "Co oznacza selektywność zabezpieczeń?",
+      "odpowiedzi": [
+        "Zadziałanie wyłącznie zabezpieczenia najbliższego miejscu zwarcia, bez wyłączania nadrzędnych",
+        "Możliwość wyboru zabezpieczenia przez użytkownika",
+        "Dobór zabezpieczeń o tej samej charakterystyce w całej instalacji",
+        "Jednoczesne zadziałanie wszystkich zabezpieczeń w torze"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Brak selektywności powoduje, że zwarcie w jednym obwodzie gasi cały budynek. Uzyskuje się ją przez różnicę prądów znamionowych i czasów zadziałania.",
+      "podstawa": "PN60364"
+    },
+    {
+      "id": "II-27",
+      "dzial": "II",
+      "zakres": [
+        "D",
+        "E"
+      ],
+      "pytanie": "Jaki przekrój ma mieć przewód ochronny PE wykonany z tego samego materiału co przewód fazowy o przekroju 10 mm²?",
+      "odpowiedzi": [
+        "4 mm²",
+        "16 mm²",
+        "10 mm²",
+        "6 mm²"
+      ],
+      "poprawna": 2,
+      "wyjasnienie": "Do 16 mm² przewód ochronny ma przekrój równy fazowemu. Od 16 do 35 mm² wystarczy 16 mm², powyżej połowa przekroju fazowego.",
+      "podstawa": "PN60364"
+    },
+    {
+      "id": "IV-17",
+      "dzial": "IV",
+      "zakres": [
+        "D",
+        "E"
+      ],
+      "pytanie": "Jaką najmniejszą rezystancję izolacji musi mieć obwód odbiorczy na napięcie 230/400 V?",
+      "odpowiedzi": [
+        "1 MΩ przy napięciu pomiarowym 500 V DC",
+        "100 kΩ przy 500 V DC",
+        "0,5 MΩ przy 250 V DC",
+        "10 MΩ przy 1000 V DC"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Dla obwodów SELV i PELV wymaga się 0,5 MΩ przy 250 V, a powyżej 500 V aż 1 MΩ przy 1000 V.",
+      "podstawa": "PN60364"
+    },
+    {
+      "id": "IV-18",
+      "dzial": "IV",
+      "zakres": [
+        "D"
+      ],
+      "pytanie": "Dlaczego przed pomiarem rezystancji izolacji trzeba odłączyć odbiorniki elektroniczne?",
+      "odpowiedzi": [
+        "Bo zafałszują wynik w stronę zbyt wysokiej rezystancji",
+        "Bo napięcie probiercze rzędu setek woltów może je uszkodzić",
+        "Nie trzeba ich odłączać",
+        "Bo pomiar trwałby zbyt długo"
+      ],
+      "poprawna": 1,
+      "wyjasnienie": "Dodatkowo urządzenia z filtrami przeciwzakłóceniowymi zaniżają wynik, bo ich kondensatory łączą fazę z ochronnym.",
+      "podstawa": "PN60364"
+    },
+    {
+      "id": "IV-19",
+      "dzial": "IV",
+      "zakres": [
+        "D",
+        "E"
+      ],
+      "pytanie": "Jaki prąd zadziałania sprawdza się przy badaniu wyłącznika różnicowoprądowego 30 mA?",
+      "odpowiedzi": [
+        "Musi zadziałać dokładnie przy 30 mA",
+        "Musi zadziałać poniżej 10 mA",
+        "Musi zadziałać w przedziale od 15 do 30 mA",
+        "Prąd zadziałania nie podlega sprawdzeniu"
+      ],
+      "poprawna": 2,
+      "wyjasnienie": "Dolna granica to połowa prądu znamionowego różnicowego. Sprawdza się też czas wyłączenia, który przy prądzie znamionowym nie może przekroczyć 300 ms.",
+      "podstawa": "PN60364"
+    },
+    {
+      "id": "IV-20",
+      "dzial": "IV",
+      "zakres": [
+        "D"
+      ],
+      "pytanie": "Co oznacza dodatni wynik próby ciągłości przewodów ochronnych?",
+      "odpowiedzi": [
+        "Zmierzona rezystancja połączenia jest niska, rzędu pojedynczych omów",
+        "Przewód ochronny jest odłączony od uziomu",
+        "Rezystancja przekracza 1 MΩ",
+        "Napięcie dotykowe wynosi zero"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Próbę wykonuje się prądem co najmniej 200 mA przy napięciu 4–24 V. Wysoka rezystancja oznacza przerwany albo skorodowany styk.",
+      "podstawa": "PN60364"
+    },
+    {
+      "id": "I-37",
+      "dzial": "I",
+      "zakres": [
+        "D",
+        "E"
+      ],
+      "pytanie": "Jakie warunki musi spełniać drabina używana przy pracach elektrycznych?",
+      "odpowiedzi": [
+        "Musi mieć co najmniej 5 m długości",
+        "Rodzaj materiału nie ma znaczenia",
+        "Powinna być wykonana z materiału nieprzewodzącego lub zabezpieczona przed przewodzeniem",
+        "Musi być metalowa, żeby zapewnić uziemienie"
+      ],
+      "poprawna": 2,
+      "wyjasnienie": "Drabiny z włókna szklanego są standardem w energetyce. Metalowa drabina w pobliżu urządzeń pod napięciem to droga prądu do ziemi przez ciało.",
+      "podstawa": "BHP2019"
+    },
+    {
+      "id": "I-38",
+      "dzial": "I",
+      "zakres": [
+        "D"
+      ],
+      "pytanie": "Kiedy dopuszcza się pracę na wysokości bez środków ochrony indywidualnej przed upadkiem?",
+      "odpowiedzi": [
+        "Nigdy, szelki są zawsze obowiązkowe",
+        "Gdy praca trwa krócej niż 15 minut",
+        "Gdy stanowisko jest zabezpieczone balustradą o wysokości 1,1 m z krawężnikiem",
+        "Gdy pracownik ma odpowiednie doświadczenie"
+      ],
+      "poprawna": 2,
+      "wyjasnienie": "Ochrona zbiorowa ma pierwszeństwo przed indywidualną. Balustrada wymaga też poprzeczki w połowie wysokości.",
+      "podstawa": "BHP2019"
+    },
+    {
+      "id": "I-39",
+      "dzial": "I",
+      "zakres": [
+        "D"
+      ],
+      "pytanie": "Co powinno zawierać stanowiskowe szkolenie wstępne elektryka?",
+      "odpowiedzi": [
+        "Wyłącznie omówienie przepisów przeciwpożarowych",
+        "Zapoznanie z zagrożeniami na konkretnym stanowisku i bezpiecznymi metodami pracy, zakończone sprawdzeniem wiedzy",
+        "Wyłącznie podpis na liście obecności",
+        "Wyłącznie pokaz gaśnic"
+      ],
+      "poprawna": 1,
+      "wyjasnienie": "Instruktaż stanowiskowy prowadzi bezpośredni przełożony. Fakt jego odbycia potwierdza się na piśmie w karcie szkolenia.",
+      "podstawa": "BHP2019"
+    },
+    {
+      "id": "I-40",
+      "dzial": "I",
+      "zakres": [
+        "D",
+        "E"
+      ],
+      "pytanie": "Jak należy oznakować miejsce pracy w rozdzielnicy, w której sąsiednie pola pozostają pod napięciem?",
+      "odpowiedzi": [
+        "Wystarczy ustne uprzedzenie zespołu",
+        "Oznakowanie nie jest potrzebne, jeśli pracuje jedna osoba",
+        "Ogrodzić strefę pracy i oznaczyć pola sąsiednie tablicami ostrzegawczymi",
+        "Wyłączyć oświetlenie w polach sąsiednich"
+      ],
+      "poprawna": 2,
+      "wyjasnienie": "Najczęstszą przyczyną wypadków w rozdzielnicach jest wejście w niewłaściwe pole. Ogrodzenie i tablice fizycznie ograniczają tę pomyłkę.",
+      "podstawa": "BHP2019"
+    },
+    {
+      "id": "I-41",
+      "dzial": "I",
+      "zakres": [
+        "D"
+      ],
+      "pytanie": "Kto decyduje o przerwaniu pracy w razie stwierdzenia zagrożenia?",
+      "odpowiedzi": [
+        "Wyłącznie koordynator",
+        "Każdy członek zespołu może wstrzymać pracę, a kierujący zespołem ma obowiązek to zrobić",
+        "Wyłącznie poleceniodawca",
+        "Wyłącznie inspektor pracy"
+      ],
+      "poprawna": 1,
+      "wyjasnienie": "Pracownik ma prawo powstrzymać się od pracy zagrażającej życiu, zawiadamiając przełożonego. Nie traci za to prawa do wynagrodzenia.",
+      "podstawa": "BHP2019"
+    },
+    {
+      "id": "V-07",
+      "dzial": "V",
+      "zakres": [
+        "D"
+      ],
+      "pytanie": "Jak wykonuje się układ uziemienia agregatu zasilającego wydzieloną instalację jako źródło niezależne?",
+      "odpowiedzi": [
+        "Punkt neutralny pozostawia się izolowany i nie stosuje zabezpieczeń",
+        "Nie stosuje się uziemienia, bo agregat jest przenośny",
+        "Uziemia się wyłącznie obudowę, bez punktu neutralnego",
+        "Punkt neutralny generatora uziemia się, tworząc lokalny układ TN lub TT"
+      ],
+      "poprawna": 3,
+      "wyjasnienie": "Bez uziemionego punktu odniesienia zabezpieczenia nadprądowe nie zadziałają przy pierwszym doziemieniu. Dla małych agregatów przenośnych stosuje się alternatywnie separację elektryczną.",
+      "podstawa": "PN60364"
+    },
+    {
+      "id": "VII-06",
+      "dzial": "VII",
+      "zakres": [
+        "D"
+      ],
+      "pytanie": "Jakie zagrożenie stwarzają urządzenia grzejne indukcyjne dużej mocy?",
+      "odpowiedzi": [
+        "Silne pole elektromagnetyczne, groźne zwłaszcza dla osób z wszczepionymi implantami",
+        "Wyłącznie zagrożenie oparzeniem",
+        "Zagrożenie wybuchem wodoru",
+        "Nie stwarzają żadnych szczególnych zagrożeń"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Wokół wzbudników wyznacza się strefy ochronne pola elektromagnetycznego. Osoby z rozrusznikiem serca nie mogą tam przebywać.",
+      "podstawa": "BHP2019"
+    },
+    {
+      "id": "VII-07",
+      "dzial": "VII",
+      "zakres": [
+        "D",
+        "E"
+      ],
+      "pytanie": "Co należy zrobić przed wejściem do wnętrza pieca elektrycznego w celu wykonania prac remontowych?",
+      "odpowiedzi": [
+        "Odłączyć zasilanie, zabezpieczyć przed załączeniem, odczekać na ostygnięcie i sprawdzić atmosferę wewnątrz",
+        "Wejść w asyście drugiej osoby, bez dodatkowych czynności",
+        "Wystarczy odczekać do ostygnięcia",
+        "Wystarczy wyłączyć zasilanie"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Wnętrze pieca jest przestrzenią zamkniętą. Obok zagrożenia elektrycznego i termicznego występuje niedobór tlenu, a praca wymaga asekuracji z zewnątrz.",
+      "podstawa": "BHP2019"
+    },
+    {
+      "id": "IX-05",
+      "dzial": "IX",
+      "zakres": [
+        "D"
+      ],
+      "pytanie": "Jaka jest zasada wykonywania prac przy sieci trakcyjnej wyłączonej spod napięcia?",
+      "odpowiedzi": [
+        "Uziemienie jest zbędne przy prądzie stałym",
+        "Uziemia się wyłącznie od strony podstacji",
+        "Po wyłączeniu zakłada się uziemiacze przenośne po obu stronach miejsca pracy",
+        "Wystarczy wyłączenie w podstacji"
+      ],
+      "poprawna": 2,
+      "wyjasnienie": "Sieć trakcyjna może zostać zasilona z drugiej strony odcinka albo od pojazdu z odzyskiem energii. Uziemienie obustronne zamyka obie te drogi.",
+      "podstawa": "BHP2019"
+    },
+    {
+      "id": "IX-06",
+      "dzial": "IX",
+      "zakres": [
+        "D"
+      ],
+      "pytanie": "Jaki jest minimalny bezpieczny odstęp od nieosłoniętej sieci trakcyjnej 3 kV DC pod napięciem?",
+      "odpowiedzi": [
+        "Dowolny, bo 3 kV to napięcie bezpieczne",
+        "0,1 m",
+        "5 cm",
+        "Nie wolno się zbliżać na odległość mniejszą niż wyznaczona w instrukcji, typowo 1,4 m wraz z narzędziami"
+      ],
+      "poprawna": 3,
+      "wyjasnienie": "Odstęp obejmuje także trzymane narzędzia i materiały. Przy pracy z podnośnika trzeba uwzględnić jego wychylenia.",
+      "podstawa": "BHP2019"
+    },
+    {
+      "id": "X-16",
+      "dzial": "X",
+      "zakres": [
+        "D"
+      ],
+      "pytanie": "Co powinna zawierać instrukcja eksploatacji urządzenia elektroenergetycznego?",
+      "odpowiedzi": [
+        "Wyłącznie dane kontaktowe producenta",
+        "Wyłącznie schemat ideowy",
+        "Charakterystykę urządzenia, zasady obsługi, czynności przy zakłóceniach i wymagania bhp",
+        "Wyłącznie wykaz części zamiennych"
+      ],
+      "poprawna": 2,
+      "wyjasnienie": "Instrukcję zatwierdza pracodawca, a jej znajomość jest warunkiem dopuszczenia do obsługi. To dokument stanowiskowy, nie katalogowy.",
+      "podstawa": "PE"
+    },
+    {
+      "id": "X-17",
+      "dzial": "X",
+      "zakres": [
+        "D"
+      ],
+      "pytanie": "Jak długo należy przechowywać protokoły z pomiarów ochronnych?",
+      "odpowiedzi": [
+        "30 dni",
+        "Nie ma obowiązku przechowywania",
+        "Co najmniej do czasu wykonania kolejnych pomiarów, a w praktyce przez cały okres eksploatacji urządzenia",
+        "Dokładnie 12 miesięcy"
+      ],
+      "poprawna": 2,
+      "wyjasnienie": "Protokół jest dowodem należytej staranności po awarii albo wypadku. Porównanie kolejnych pomiarów pokazuje też trend degradacji izolacji.",
+      "podstawa": "PE"
+    },
+    {
+      "id": "X-18",
+      "dzial": "X",
+      "zakres": [
+        "D"
+      ],
+      "pytanie": "Czy świadectwo kwalifikacyjne D uprawnia do wykonywania prac montażowych przy urządzeniach?",
+      "odpowiedzi": [
+        "Tak, pod warunkiem nadzoru innej osoby",
+        "Tak, dozór obejmuje wszystkie czynności",
+        "Nie, prace wykonawcze wymagają świadectwa w zakresie eksploatacji",
+        "Tak, ale wyłącznie do 1 kV"
+      ],
+      "poprawna": 2,
+      "wyjasnienie": "Zakres D obejmuje kierowanie, nadzór, odbiory i wydawanie poleceń. Żeby samodzielnie wykonywać prace, trzeba mieć także zakres E.",
+      "podstawa": "KWAL2022"
+    },
+    {
+      "id": "III-10",
+      "dzial": "III",
+      "zakres": [
+        "D",
+        "E"
+      ],
+      "pytanie": "Co oznacza rodzaj budowy przeciwwybuchowej „d”?",
+      "odpowiedzi": [
+        "Iskrobezpieczeństwo",
+        "Osłona zwiększonego bezpieczeństwa",
+        "Osłona ognioszczelna, wytrzymująca wybuch wewnątrz i nieprzenosząca go na zewnątrz",
+        "Osłona olejowa"
+      ],
+      "poprawna": 2,
+      "wyjasnienie": "Ognioszczelność uzyskuje się przez szczeliny gaszące płomień. Dlatego nie wolno dorabiać otworów ani spiłowywać kołnierzy takiej obudowy.",
+      "podstawa": "ATEX"
+    },
+    {
+      "id": "III-11",
+      "dzial": "III",
+      "zakres": [
+        "D"
+      ],
+      "pytanie": "Na czym polega ochrona typu iskrobezpiecznego „i”?",
+      "odpowiedzi": [
+        "Na ograniczeniu energii obwodu poniżej wartości zdolnej zapalić mieszaninę wybuchową",
+        "Na zalaniu obwodu masą izolacyjną",
+        "Na nadciśnieniu gazu obojętnego w obudowie",
+        "Na hermetycznym zamknięciu obwodu"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Obwód iskrobezpieczny wolno serwisować pod napięciem w strefie zagrożonej. Wymaga jednak zasilania przez certyfikowaną barierę i osobnych, oznaczonych na niebiesko przewodów.",
+      "podstawa": "ATEX"
+    },
+    {
+      "id": "III-12",
+      "dzial": "III",
+      "zakres": [
+        "D"
+      ],
+      "pytanie": "Kto sporządza dokument zabezpieczenia przed wybuchem?",
+      "odpowiedzi": [
+        "Jednostka notyfikowana",
+        "Pracodawca, przed rozpoczęciem pracy w przestrzeni zagrożonej wybuchem",
+        "Inspektor pracy",
+        "Producent urządzeń"
+      ],
+      "poprawna": 1,
+      "wyjasnienie": "Dokument zawiera ocenę ryzyka wybuchu, wykaz stref i środki ochronne. Aktualizuje się go przy każdej istotnej zmianie w instalacji.",
+      "podstawa": "ATEX"
+    },
+    {
+      "id": "III-13",
+      "dzial": "III",
+      "zakres": [
+        "D",
+        "E"
+      ],
+      "pytanie": "Czym jest klasa temperaturowa T4 urządzenia przeciwwybuchowego?",
+      "odpowiedzi": [
+        "Temperatura zapłonu gazu wynosi 135 °C",
+        "Urządzenie pracuje w otoczeniu do 40 °C",
+        "Czwarty stopień odporności na przegrzanie",
+        "Maksymalna temperatura powierzchni urządzenia nie przekracza 135 °C"
+      ],
+      "poprawna": 3,
+      "wyjasnienie": "Temperatura powierzchni musi być niższa od temperatury samozapłonu obecnego gazu. T1 to 450 °C, T6 zaledwie 85 °C.",
+      "podstawa": "ATEX"
+    },
+    {
+      "id": "V-08",
+      "dzial": "V",
+      "zakres": [
+        "D",
+        "E"
+      ],
+      "pytanie": "Dlaczego agregat prądotwórczy spalinowy nie może pracować wewnątrz pomieszczenia?",
+      "odpowiedzi": [
+        "Ze względu na drgania uszkadzające konstrukcję",
+        "Ze względu na tlenek węgla w spalinach, bezwonny i śmiertelnie trujący",
+        "Może pracować, jeśli ma zamknięty rozrusznik",
+        "Ze względu na zbyt wysoką wilgotność"
+      ],
+      "poprawna": 1,
+      "wyjasnienie": "Zatrucia czadem od agregatów zdarzają się regularnie po wichurach i przerwach w zasilaniu. Praca w pomieszczeniu wymaga odprowadzenia spalin na zewnątrz.",
+      "podstawa": "BHP2019"
+    },
+    {
+      "id": "V-09",
+      "dzial": "V",
+      "zakres": [
+        "D"
+      ],
+      "pytanie": "Jak często należy próbnie uruchamiać agregat rezerwowy zasilania awaryjnego?",
+      "odpowiedzi": [
+        "Raz na pięć lat",
+        "Zgodnie z instrukcją eksploatacji, zwykle nie rzadziej niż raz w miesiącu, pod obciążeniem",
+        "Raz na dwa lata",
+        "Wyłącznie przy rzeczywistym zaniku zasilania"
+      ],
+      "poprawna": 1,
+      "wyjasnienie": "Próba bez obciążenia nie wykrywa najczęstszych usterek. Wyniki prób wpisuje się do dokumentacji eksploatacyjnej.",
+      "podstawa": "PE"
+    },
+    {
+      "id": "V-10",
+      "dzial": "V",
+      "zakres": [
+        "D"
+      ],
+      "pytanie": "Co powinien zapewniać samoczynny układ SZR?",
+      "odpowiedzi": [
+        "Równoległą pracę sieci i agregatu na stałe",
+        "Kompensację mocy biernej",
+        "Przełączenie na zasilanie rezerwowe po zaniku podstawowego, bez możliwości równoległej pracy źródeł",
+        "Wyłączenie wszystkich odbiorników przy zaniku zasilania"
+      ],
+      "poprawna": 2,
+      "wyjasnienie": "Praca równoległa wymagałaby synchronizacji i osobnych zabezpieczeń. Zwykły SZR realizuje przełączanie wzajemnie wykluczające.",
+      "podstawa": "PN60364"
+    },
+    {
+      "id": "VI-12",
+      "dzial": "VI",
+      "zakres": [
+        "D",
+        "E"
+      ],
+      "pytanie": "Jak postąpić z osobą porażoną prądem, która jest przytomna i wygląda dobrze?",
+      "odpowiedzi": [
+        "Skierować do lekarza dopiero przy dolegliwościach",
+        "Odesłać do pracy, skoro czuje się dobrze",
+        "Zapewnić opiekę medyczną, bo zaburzenia rytmu serca mogą wystąpić z opóźnieniem",
+        "Podać coś do picia i obserwować przez 10 minut"
+      ],
+      "poprawna": 2,
+      "wyjasnienie": "Po przepływie prądu przez klatkę piersiową zaleca się badanie EKG. Występują też późne oparzenia wewnętrzne niewidoczne na skórze.",
+      "podstawa": "KP"
+    },
+    {
+      "id": "VI-13",
+      "dzial": "VI",
+      "zakres": [
+        "D",
+        "E"
+      ],
+      "pytanie": "Jak zaopatrzyć oparzenie łukiem elektrycznym?",
+      "odpowiedzi": [
+        "Posmarować tłuszczem i zabandażować ciasno",
+        "Owinąć szczelnie folią bez schładzania",
+        "Przekłuć pęcherze i zdezynfekować spirytusem",
+        "Schładzać czystą, chłodną wodą i osłonić jałowym opatrunkiem, nie usuwając przywartej odzieży"
+      ],
+      "poprawna": 3,
+      "wyjasnienie": "Schładzanie ogranicza głębokość urazu, ale u rozległych oparzeń trzeba uważać na wychłodzenie. Tłuszcze i odrywanie odzieży pogłębiają uszkodzenie.",
+      "podstawa": "KP"
+    },
+    {
+      "id": "VI-14",
+      "dzial": "VI",
+      "zakres": [
+        "D"
+      ],
+      "pytanie": "Gdzie w zakładzie powinny znajdować się apteczki pierwszej pomocy?",
+      "odpowiedzi": [
+        "W dowolnym miejscu, byle jedna na zakład",
+        "Wyłącznie u kierownika zakładu",
+        "W pokoju służby BHP",
+        "W miejscach ustalonych z lekarzem medycyny pracy, oznakowanych i z wyznaczonymi osobami do obsługi"
+      ],
+      "poprawna": 3,
+      "wyjasnienie": "Przy każdej apteczce wywiesza się instrukcję udzielania pierwszej pomocy i wykaz osób przeszkolonych. Sama apteczka bez wyznaczonych osób nie spełnia wymogu.",
+      "podstawa": "KP"
+    },
+    {
+      "id": "VI-15",
+      "dzial": "VI",
+      "zakres": [
+        "D",
+        "E"
+      ],
+      "pytanie": "Jaki jest prawidłowy stosunek uciśnięć do oddechów ratowniczych u dorosłego?",
+      "odpowiedzi": [
+        "30 uciśnięć na 2 oddechy",
+        "10 na 1",
+        "15 na 2",
+        "5 na 1"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Jeśli ratownik nie chce lub nie może prowadzić wentylacji, wykonuje same uciśnięcia bez przerw. Reanimację prowadzi się do przyjazdu służb albo powrotu oddechu.",
+      "podstawa": "KP"
+    },
+    {
+      "id": "IX-07",
+      "dzial": "IX",
+      "zakres": [
+        "D"
+      ],
+      "pytanie": "Dlaczego przy pracach na sieci trakcyjnej wymagane jest potwierdzenie wyłączenia od dyżurnego ruchu?",
+      "odpowiedzi": [
+        "Nie jest wymagane, wystarczy wyłącznik lokalny",
+        "Bo dyżurny wydaje narzędzia",
+        "Bo wymaga tego regulamin przewozu osób",
+        "Bo tylko dyspozytor zna faktyczny układ zasilania odcinka i może zablokować ponowne załączenie"
+      ],
+      "poprawna": 3,
+      "wyjasnienie": "Sieć trakcyjna jest zasilana odcinkowo z wielu podstacji. Wyłączenie jednego wyłącznika nie gwarantuje braku napięcia na całym odcinku roboczym.",
+      "podstawa": "BHP2019"
+    },
+    {
+      "id": "IX-08",
+      "dzial": "IX",
+      "zakres": [
+        "D",
+        "E"
+      ],
+      "pytanie": "Jak sprawdzić brak napięcia w sieci trakcyjnej prądu stałego?",
+      "odpowiedzi": [
+        "Dotykając sieci wierzchem dłoni",
+        "Obserwując, czy nie ma iskrzenia",
+        "Wskaźnikiem przeznaczonym do napięcia stałego danego zakresu, sprawdzonym bezpośrednio przed i po próbie",
+        "Wskaźnikiem do napięcia przemiennego 230 V"
+      ],
+      "poprawna": 2,
+      "wyjasnienie": "Wskaźniki do prądu przemiennego działające na zasadzie pojemnościowej nie wykrywają napięcia stałego. To typowa i groźna pomyłka.",
+      "podstawa": "BHP2019"
+    },
+    {
+      "id": "I-42",
+      "dzial": "I",
+      "zakres": [
+        "D"
+      ],
+      "pytanie": "Zespół zgłasza zakończenie pracy telefonicznie. Co musi zrobić dopuszczający przed likwidacją miejsca pracy?",
+      "odpowiedzi": [
+        "Poczekać 15 minut i załączyć zasilanie",
+        "Upewnić się, że wszyscy opuścili strefę i że usunięto narzędzia oraz uziemiacze",
+        "Natychmiast załączyć zasilanie po zgłoszeniu telefonicznym",
+        "Zlecić kontrolę służbie BHP"
+      ],
+      "poprawna": 1,
+      "wyjasnienie": "Pozostawiony uziemiacz przy załączeniu powoduje zwarcie z łukiem. Dlatego zwrot uziemiaczy potwierdza się w poleceniu pisemnie.",
+      "podstawa": "BHP2019"
+    },
+    {
+      "id": "I-43",
+      "dzial": "I",
+      "zakres": [
+        "D"
+      ],
+      "pytanie": "Podczas pracy okazuje się, że potrzebna jest dodatkowa osoba w zespole. Jak postąpić?",
+      "odpowiedzi": [
+        "Nie wolno zmieniać składu, pracę trzeba przerwać na stałe",
+        "Nowa osoba dołącza po ustnym pouczeniu",
+        "Zmianę składu zespołu wprowadza poleceniodawca, a fakt odnotowuje się w poleceniu",
+        "Kierujący zespołem dobiera dowolną osobę bez formalności"
+      ],
+      "poprawna": 2,
+      "wyjasnienie": "Każdy nowy członek zespołu musi zostać dopuszczony i poinstruowany o zagrożeniach w tym konkretnym miejscu pracy.",
+      "podstawa": "BHP2019"
+    },
+    {
+      "id": "I-44",
+      "dzial": "I",
+      "zakres": [
+        "D"
+      ],
+      "pytanie": "Czy kierujący zespołem może jednocześnie wykonywać prace fizyczne przy urządzeniu?",
+      "odpowiedzi": [
+        "Tak, zawsze, niezależnie od liczebności zespołu",
+        "Tak, jeżeli zespół liczy do dwóch osób łącznie z nim i pozwala na to charakter pracy",
+        "Tylko za pisemną zgodą inspektora pracy",
+        "Nigdy, musi wyłącznie nadzorować"
+      ],
+      "poprawna": 1,
+      "wyjasnienie": "W większym zespole nadzór wymaga pełnej uwagi. Przy pracach szczególnie niebezpiecznych kierujący nie wykonuje czynności roboczych w ogóle.",
+      "podstawa": "BHP2019"
+    },
+    {
+      "id": "II-28",
+      "dzial": "II",
+      "zakres": [
+        "D",
+        "E"
+      ],
+      "pytanie": "Jaka jest dopuszczalna wartość napięcia dotykowego w warunkach normalnych dla prądu przemiennego?",
+      "odpowiedzi": [
+        "50 V",
+        "12 V",
+        "120 V",
+        "230 V"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "W warunkach zwiększonego zagrożenia, na przykład w wykopach czy kotłach, granicę obniża się do 25 V. Dla prądu stałego odpowiednikiem jest 120 V.",
+      "podstawa": "PN60364"
+    },
+    {
+      "id": "II-29",
+      "dzial": "II",
+      "zakres": [
+        "D"
+      ],
+      "pytanie": "Co to jest napięcie krokowe?",
+      "odpowiedzi": [
+        "Spadek napięcia na długości obwodu",
+        "Napięcie występujące przy każdym załączeniu odbiornika",
+        "Napięcie na zaciskach przewodu ochronnego",
+        "Różnica potencjałów między stopami stojącego człowieka na powierzchni ziemi przy przepływie prądu zwarciowego"
+      ],
+      "poprawna": 3,
+      "wyjasnienie": "Przy zerwanym przewodzie leżącym na ziemi obowiązuje wychodzenie ze strefy drobnymi krokami albo skokami złączonymi nogami.",
+      "podstawa": "PN60364"
+    },
+    {
+      "id": "IV-21",
+      "dzial": "IV",
+      "zakres": [
+        "D"
+      ],
+      "pytanie": "Czego dowodzi pomiar impedancji pętli zwarcia w układzie TN?",
+      "odpowiedzi": [
+        "Że prąd zwarciowy jest wystarczająco duży, aby zabezpieczenie wyłączyło obwód w wymaganym czasie",
+        "Że rezystancja izolacji jest dostateczna",
+        "Że wyłącznik różnicowoprądowy działa",
+        "Że przewód neutralny jest ciągły"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Warunek samoczynnego wyłączenia zapisuje się jako iloczyn impedancji pętli i prądu wyłączającego nieprzekraczający napięcia fazowego.",
+      "podstawa": "PN60364"
+    },
+    {
+      "id": "X-19",
+      "dzial": "X",
+      "zakres": [
+        "D"
+      ],
+      "pytanie": "Kiedy urządzenie elektroenergetyczne można przekazać do eksploatacji?",
+      "odpowiedzi": [
+        "Po zakończeniu prób i pomiarów pomontażowych z wynikiem pozytywnym oraz sporządzeniu dokumentacji odbiorowej",
+        "Po pierwszym miesiącu pracy próbnej",
+        "Po ustnym potwierdzeniu wykonawcy",
+        "Po zakończeniu montażu, pomiary można wykonać później"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Dokumentacja odbiorowa obejmuje protokoły pomiarów, dokumentację powykonawczą i instrukcję eksploatacji. Bez niej odbiór jest nieskuteczny.",
+      "podstawa": "PE"
     }
   ]
 }

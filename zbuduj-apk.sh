@@ -12,8 +12,10 @@ cp pytania.json android/app/src/main/assets/pytania.json
 
 echo "sdk.dir=$ANDROID_HOME" > android/local.properties
 
-GRADLE=$(command -v gradle || find "$HOME/.gradle/wrapper/dists" -name gradle -type f -path '*/bin/*' 2>/dev/null | sort | tail -1)
-[ -x "$GRADLE" ] || { echo "Nie znalazlem gradle."; exit 1; }
+# AGP 8.5.2 wymaga Gradle 8.9. Systemowy /usr/bin/gradle to 4.4.1 i nie czyta
+# settings.gradle.kts, a 9.3.1 jest za nowy — dlatego szukamy konkretnie 8.9.
+GRADLE=$(find "$HOME/.gradle/wrapper/dists" -path '*gradle-8.9/bin/gradle' -type f 2>/dev/null | head -1)
+[ -x "$GRADLE" ] || { echo "Nie znalazlem gradle 8.9."; exit 1; }
 
 (cd android && "$GRADLE" assembleDebug --console=plain)
 
