@@ -129,14 +129,33 @@ Wymaga Android SDK (`ANDROID_HOME`) i JDK 21. Gotowy plik: `SEP-Quiz-G1-v1.0.apk
 
 ### Instalacja na telefonie
 
+**Najprościej:** pobierz gotowy plik APK z zakładki
+[**Releases**](https://github.com/dominikmaslak11/sep-quiz/releases),
+skopiuj na telefon i otwórz menedżerem plików.
+
+Android poprosi o zgodę na instalację z nieznanego źródła — to normalne przy aplikacji
+spoza sklepu Play. Aplikacja **nie prosi o żadne uprawnienia** i nie korzysta z sieci.
+
 **Przez USB:**
 ```bash
-adb install -r SEP-Quiz-G1-v1.0.apk
+adb install -r SEP-Quiz-G1-v1.0.0.apk
 ```
 
-**Bez kabla:** skopiuj plik APK na telefon, otwórz go menedżerem plików i zezwól
-na instalację z nieznanych źródeł. APK jest podpisany kluczem debugowym, więc Android
-pokaże ostrzeżenie — to normalne przy aplikacji spoza sklepu.
+### Podpis wydania
+
+Wydania są podpisane własnym certyfikatem, nie kluczem debugowym:
+
+```
+CN=Dominik Maslak, OU=SEP Quiz, O=Dominik Maslak, L=Kalisz, C=PL
+SHA-256: f8:dc:b4:77:bf:6f:58:42:f6:eb:58:8b:bb:0d:c2:74:ef:5c:ac:3b:d3:8f:94:6d:2a:b6:67:1b:84:8b:e7:51
+```
+
+Odcisk można sprawdzić poleceniem:
+```bash
+apksigner verify --print-certs SEP-Quiz-G1-v1.0.0.apk
+```
+
+Plik keystore i hasło **nie znajdują się w repozytorium** — leżą poza nim i nie są publikowane.
 
 ### Co umie
 

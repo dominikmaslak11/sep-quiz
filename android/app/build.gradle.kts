@@ -1,6 +1,15 @@
+import java.util.Properties
+
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
+}
+
+// Dane do podpisu wydania leza w android/klucz.properties — plik POZA repozytorium.
+// Bez niego build release podpisze sie kluczem debugowym (tylko do testow lokalnych).
+val klucz = Properties().apply {
+    val f = rootProject.file("klucz.properties")
+    if (f.exists()) f.inputStream().use { load(it) }
 }
 
 android {
@@ -17,10 +26,22 @@ android {
         versionName = "1.0"
     }
 
+    signingConfigs {
+        create("wydanie") {
+            if (klucz.getProperty("storeFile") != null) {
+                storeFile = file(klucz.getProperty("storeFile"))
+                storePassword = klucz.getProperty("storePassword")
+                keyAlias = klucz.getProperty("keyAlias")
+                keyPassword = klucz.getProperty("keyPassword")
+            }
+        }
+    }
+
     buildTypes {
         release {
             isMinifyEnabled = false
-            signingConfig = signingConfigs.getByName("debug")
+            signingConfig = if (klucz.getProperty("storeFile") != null)
+                signingConfigs.getByName("wydanie") else signingConfigs.getByName("debug")
         }
     }
     compileOptions {
