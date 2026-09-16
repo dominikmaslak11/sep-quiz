@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+postepy.json
+egzaminy/
+*.aux
+*.log
+*.out

@@ -1,0 +1,116 @@
+# Quiz i egzaminy próbne SEP G1 (dozór D / eksploatacja E)
+
+Narzędzie do przygotowania się do egzaminu kwalifikacyjnego URE dla grupy **G1**
+(urządzenia, instalacje i sieci elektroenergetyczne do 1 kV i powyżej).
+
+Powstało przed egzaminem **dozór G1 w dniu 29.09.2026**.
+
+- **78 pytań** z odpowiedziami i wyjaśnieniami, w 10 działach
+- **28 pytań oznaczonych wyłącznie jako dozorowe** — organizacja pracy, polecenia, dokumentacja
+- interaktywny **quiz w terminalu** z zapisem postępów i powtórką błędów
+- generator **arkuszy egzaminacyjnych w PDF** wraz z kluczem odpowiedzi
+
+---
+
+## ⚖ Skąd pochodzą pytania
+
+**Pytania są opracowaniem własnym na podstawie aktów normatywnych**, które w świetle
+**art. 4 pkt 1 ustawy o prawie autorskim i prawach pokrewnych nie są przedmiotem prawa
+autorskiego** — wolno je swobodnie cytować i przetwarzać.
+
+Podstawą są w szczególności:
+
+| skrót | akt |
+|---|---|
+| `BHP2019` | Rozporządzenie Ministra Energii z 28.08.2019 w sprawie BHP przy urządzeniach energetycznych (Dz.U. 2019 poz. 1830) |
+| `KWAL2022` | Rozporządzenie MKiŚ z 1.07.2022 w sprawie zasad stwierdzania kwalifikacji (Dz.U. 2022 poz. 1392) |
+| `PE` | Ustawa — Prawo energetyczne |
+| `KP` | Kodeks pracy, dział X |
+| `PB` / `WT2002` | Prawo budowlane i warunki techniczne |
+| `PN60364`, `PN61140`, `PN60529`, `PN62305` | normy przywołane opisowo |
+
+Pełne teksty aktów: **https://isap.sejm.gov.pl** (bezpłatnie).
+
+> ⚠ **Żadna treść nie pochodzi z komercyjnych podręczników ani zbiorów zadań.**
+> Publikacje wydawnicze są chronione prawem autorskim, a egzemplarze elektroniczne
+> bywają znakowane wodnie identyfikatorem kupującego — kopiowanie ich treści do
+> publicznego repozytorium naraża osobę kupującą, nie wydawcę.
+> Normy PN są chronione prawem autorskim i **przywołuje się je tu wyłącznie z nazwy**.
+
+---
+
+## Instalacja
+
+Nic nie trzeba instalować poza Pythonem 3. Do składania PDF-ów potrzebny jest `xelatex`
+z czcionką Carlito:
+
+```bash
+sudo apt install texlive-xetex fonts-crosextra-carlito
+```
+
+## Użycie
+
+### Quiz w terminalu
+
+```bash
+python3 pytania.py                  # zbuduj pytania.json (raz, po każdej zmianie banku)
+
+python3 quiz.py nauka               # wszystkie pytania, wyjaśnienie po każdym
+python3 quiz.py nauka -z D -d I     # tylko dozór, tylko dział I
+python3 quiz.py egzamin -n 25 -z D  # 25 losowych pytań, wynik na końcu
+python3 quiz.py bledy               # powtórka tylko tego, co poszło źle
+python3 quiz.py statystyki          # które pytania sprawiają najwięcej kłopotu
+```
+
+Postępy zapisują się w `postepy.json` (plik lokalny, poza repozytorium).
+
+### Arkusze do wydruku
+
+```bash
+python3 egzamin_latex.py -n 25 -z D --wariantow 3
+python3 egzamin_latex.py -d I,X --tytul "Powtórka: organizacja pracy i przepisy"
+```
+
+Wynik trafia do `egzaminy/`: arkusz z miejscem na podpis i wynik oraz osobny
+**klucz odpowiedzi z wyjaśnieniami**.
+
+## Działy
+
+| | dział | pytań |
+|---|---|---|
+| I | Organizacja bezpiecznej pracy | 18 |
+| II | Ochrona przeciwporażeniowa | 12 |
+| III | Urządzenia w strefach zagrożonych wybuchem | 6 |
+| IV | Prace kontrolno-pomiarowe do 1 kV | 10 |
+| V | Zespoły prądotwórcze | 4 |
+| VI | Pomoc przedlekarska | 7 |
+| VII | Elektrotermia i elektroliza | 3 |
+| VIII | Fotowoltaika i magazyny energii | 5 |
+| IX | Trakcja elektryczna | 3 |
+| X | Przepisy, kwalifikacje i dokumentacja | 10 |
+
+## Jak dopisać własne pytania
+
+Otwórz `bank_1.py`, `bank_2.py` albo `bank_3.py` i dopisz wpis w tym samym formacie.
+**Poprawna odpowiedź jest zawsze pierwsza na liście** — przy eksporcie odpowiedzi są
+tasowane deterministycznie, więc w `pytania.json` nie widać wzorca. Potem:
+
+```bash
+python3 pytania.py     # waliduje bank i przebudowuje pytania.json
+```
+
+Walidacja sprawdza duplikaty identyfikatorów, liczbę odpowiedzi, poprawność działu
+i podstawy prawnej oraz obecność wyjaśnienia.
+
+## ⚠ Zastrzeżenie
+
+Materiał pomocniczy do samodzielnej nauki. **Egzamin kwalifikacyjny URE ma formę ustną**,
+więc test wielokrotnego wyboru ćwiczy znajomość faktów, ale nie umiejętność wytłumaczenia
+procedury. Ucz się, mówiąc odpowiedzi na głos.
+
+Autorzy nie ponoszą odpowiedzialności za wynik egzaminu ani za skutki zastosowania
+zawartych tu informacji w praktyce.
+
+## Licencja
+
+MIT — patrz `LICENSE`.
