@@ -5,8 +5,8 @@ Narzędzie do przygotowania się do egzaminu kwalifikacyjnego URE dla grupy **G1
 
 Powstało przed egzaminem **dozór G1 w dniu 29.09.2026**.
 
-- **174 pytania** z odpowiedziami i wyjaśnieniami, w 10 działach
-- **83 pytania oznaczone wyłącznie jako dozorowe** — organizacja pracy, polecenia, dokumentacja
+- **196 pytań** z odpowiedziami i wyjaśnieniami, w 10 działach
+- **94 pytania oznaczone wyłącznie jako dozorowe** — organizacja pracy, polecenia, dokumentacja
 - interaktywny **quiz w terminalu** z zapisem postępów i powtórką błędów
 - generator **arkuszy egzaminacyjnych w PDF** wraz z kluczem odpowiedzi
 
@@ -80,16 +80,16 @@ Wynik trafia do `egzaminy/`: arkusz z miejscem na podpis i wynik oraz osobny
 
 | | dział | pytań |
 |---|---|---|
-| I | Organizacja bezpiecznej pracy | 18 |
-| II | Ochrona przeciwporażeniowa | 12 |
-| III | Urządzenia w strefach zagrożonych wybuchem | 6 |
-| IV | Prace kontrolno-pomiarowe do 1 kV | 10 |
-| V | Zespoły prądotwórcze | 4 |
-| VI | Pomoc przedlekarska | 7 |
-| VII | Elektrotermia i elektroliza | 3 |
-| VIII | Fotowoltaika i magazyny energii | 5 |
-| IX | Trakcja elektryczna | 3 |
-| X | Przepisy, kwalifikacje i dokumentacja | 10 |
+| I | Organizacja bezpiecznej pracy | 44 |
+| II | Ochrona przeciwporażeniowa | 29 |
+| III | Urządzenia w strefach zagrożonych wybuchem | 25 |
+| IV | Prace kontrolno-pomiarowe do 1 kV | 21 |
+| V | Zespoły prądotwórcze | 20 |
+| VI | Pomoc przedlekarska | 15 |
+| VII | Elektrotermia i elektroliza | 7 |
+| VIII | Fotowoltaika i magazyny energii | 8 |
+| IX | Trakcja elektryczna | 8 |
+| X | Przepisy, kwalifikacje i dokumentacja | 19 |
 
 ## Jak dopisać własne pytania
 

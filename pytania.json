@@ -3076,6 +3076,391 @@
       "poprawna": 0,
       "wyjasnienie": "Dokumentacja odbiorowa obejmuje protokoły pomiarów, dokumentację powykonawczą i instrukcję eksploatacji. Bez niej odbiór jest nieskuteczny.",
       "podstawa": "PE"
+    },
+    {
+      "id": "V-11",
+      "dzial": "V",
+      "zakres": [
+        "D"
+      ],
+      "pytanie": "Kto może samodzielnie obsługiwać zespół prądotwórczy jako urządzenie elektroenergetyczne?",
+      "odpowiedzi": [
+        "Wyłącznie elektryk z uprawnieniami budowlanymi",
+        "Osoba posiadająca ważne świadectwo kwalifikacyjne w zakresie odpowiednim do wykonywanych czynności (E lub D)",
+        "Każdy pracownik zakładu, niezależnie od uprawnień",
+        "Osoba przeszkolona ustnie przez poprzednika na stanowisku"
+      ],
+      "poprawna": 1,
+      "wyjasnienie": "Zespół prądotwórczy jest urządzeniem elektroenergetycznym w rozumieniu przepisów o kwalifikacjach — obsługa i dozór wymagają odpowiedniego świadectwa kwalifikacyjnego, tak jak przy każdym innym urządzeniu tej grupy.",
+      "podstawa": "KWAL2022"
+    },
+    {
+      "id": "V-12",
+      "dzial": "V",
+      "zakres": [
+        "D",
+        "E"
+      ],
+      "pytanie": "Jak należy traktować dopuszczalne krótkotrwałe przeciążenie zespołu prądotwórczego podawane przez producenta?",
+      "odpowiedzi": [
+        "Jako wartość, którą można stosować bez ograniczeń czasowych",
+        "Jako wartość ograniczoną czasowo (zwykle do ok. godziny w ciągu doby), po przekroczeniu której grozi przegrzanie i przyspieszone zużycie zespołu",
+        "Jako margines bezpieczeństwa, który producent zawsze zaniża",
+        "Zespoły prądotwórcze nie mogą być w ogóle przeciążane"
+      ],
+      "poprawna": 1,
+      "wyjasnienie": "Podobnie jak transformatory czy silniki, zespół prądotwórczy ma określony w dokumentacji techniczny margines przeciążalności czasowej. Praca powyżej mocy znamionowej bez ograniczenia w czasie prowadzi do przegrzania uzwojeń i skrócenia żywotności.",
+      "podstawa": "BHP2019"
+    },
+    {
+      "id": "V-13",
+      "dzial": "V",
+      "zakres": [
+        "D",
+        "E"
+      ],
+      "pytanie": "Jaką rolę pełni układ SZR (samoczynnego załączania rezerwy) współpracujący z zespołem prądotwórczym?",
+      "odpowiedzi": [
+        "Służy wyłącznie do pomiaru zużycia paliwa",
+        "Włącza zespół tylko ręcznie, na polecenie dyżurnego",
+        "Synchronizuje na stałe pracę równoległą sieci i zespołu prądotwórczego",
+        "Po zaniku napięcia sieciowego automatycznie uruchamia zespół i przełącza zasilanie odbiorów, bez możliwości równoległej pracy obu źródeł"
+      ],
+      "poprawna": 3,
+      "wyjasnienie": "Typowy SZR działa na zasadzie wzajemnego wykluczenia źródeł (sieć albo zespół, nigdy jednocześnie), co eliminuje ryzyko pracy równoległej bez synchronizacji. Praca równoległa wymagałaby odrębnych zabezpieczeń synchronizacyjnych.",
+      "podstawa": "BHP2019"
+    },
+    {
+      "id": "V-14",
+      "dzial": "V",
+      "zakres": [
+        "D"
+      ],
+      "pytanie": "Dlaczego rozruch dużego silnika indukcyjnego bezpośrednio z zespołu prądotwórczego jest ograniczony do części mocy znamionowej zespołu?",
+      "odpowiedzi": [
+        "Prąd rozruchowy silnika wielokrotnie przewyższa prąd znamionowy i mocno, choć przejściowo, obniża napięcie generatora, mogąc zakłócić pracę innych odbiorników",
+        "Napięcie zespołu jest zawsze zbyt niskie dla silników indukcyjnych",
+        "Silniki indukcyjne nie mogą w ogóle pracować z zespołami prądotwórczymi",
+        "Zespół prądotwórczy nie ma zabezpieczenia nadprądowego"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Im mniejszy zespół względem mocy rozruchowej silnika, tym głębsze zapady napięcia przy rozruchu. Dlatego producenci podają orientacyjny maksymalny udział mocy silnika rozruchowego w mocy zespołu, niższy dla zespołów słabszych, i zalecają łagodniejsze metody rozruchu (np. gwiazda-trójkąt) dla większych silników.",
+      "podstawa": "BHP2019"
+    },
+    {
+      "id": "V-15",
+      "dzial": "V",
+      "zakres": [
+        "D",
+        "E"
+      ],
+      "pytanie": "W jakiej kolejności uruchamia się zespół prądotwórczy przed podaniem napięcia do odbiorników?",
+      "odpowiedzi": [
+        "Rozruch silnika spalinowego i jego rozgrzanie, wzbudzenie generatora, ustawienie napięcia regulatorem, ustawienie częstotliwości 50 Hz regulacją dopływu paliwa",
+        "Kolejność nie ma znaczenia, wszystko włącza się jednocześnie",
+        "Wzbudzenie generatora jeszcze przed rozruchem silnika",
+        "Najpierw załączenie odbiorników, potem rozruch silnika"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Silnik musi osiągnąć stabilne obroty i temperaturę pracy, zanim generator zacznie oddawać moc. Napięcie i częstotliwość ustawia się i sprawdza przed podłączeniem odbiorników, żeby ich nie uszkodzić.",
+      "podstawa": "BHP2019"
+    },
+    {
+      "id": "V-16",
+      "dzial": "V",
+      "zakres": [
+        "D"
+      ],
+      "pytanie": "Które zdarzenie jest podstawą do natychmiastowego, awaryjnego zatrzymania pracującego zespołu prądotwórczego?",
+      "odpowiedzi": [
+        "Normalny wzrost temperatury obudowy po godzinie pracy",
+        "Zapalenie się kontrolki poziomu paliwa poniżej 50%",
+        "Niewielkie wahania obciążenia w granicach mocy znamionowej",
+        "Nagły spadek ciśnienia oleju, przegrzanie cieczy chłodzącej silnik albo nietypowy hałas świadczący o uszkodzeniu"
+      ],
+      "poprawna": 3,
+      "wyjasnienie": "Spadek ciśnienia oleju czy przegrzanie chłodziwa grożą trwałym uszkodzeniem silnika w ciągu sekund. Obsługa powinna znać sygnały awaryjne swojego agregatu i reagować zatrzymaniem, zanim dojdzie do poważniejszej awarii.",
+      "podstawa": "BHP2019"
+    },
+    {
+      "id": "V-17",
+      "dzial": "V",
+      "zakres": [
+        "D",
+        "E"
+      ],
+      "pytanie": "W jakiej kolejności prawidłowo zatrzymuje się pracujący zespół prądotwórczy w warunkach normalnych?",
+      "odpowiedzi": [
+        "Zatrzymuje się silnik pod pełnym obciążeniem, a odbiory odłącza po jego zatrzymaniu",
+        "Najpierw odciąża się zespół wyłącznikiem głównym (odłącza odbiory), a dopiero potem zatrzymuje silnik",
+        "Odcina się dopływ paliwa bez wcześniejszego odciążenia",
+        "Kolejność nie ma znaczenia dla żywotności zespołu"
+      ],
+      "poprawna": 1,
+      "wyjasnienie": "Zatrzymanie obciążonego zespołu grozi zanikiem napięcia u odbiorców z uderzeniem prądowym i naprężeniami mechanicznymi w silniku. Odciążenie przed zatrzymaniem chroni zarówno zespół, jak i zasilane urządzenia.",
+      "podstawa": "BHP2019"
+    },
+    {
+      "id": "V-18",
+      "dzial": "V",
+      "zakres": [
+        "D",
+        "E"
+      ],
+      "pytanie": "Jak zapewnia się ochronę przeciwporażeniową przy zasilaniu odbiorników z przenośnego zespołu prądotwórczego?",
+      "odpowiedzi": [
+        "Wystarczy sama separacja galwaniczna uzwojeń silnika i generatora",
+        "Obudowa metalowa zespołu nie wymaga żadnego uziemienia, bo zespół jest przenośny",
+        "Przez samoczynne wyłączenie zasilania (np. wyłącznikiem różnicowoprądowym) oraz uziemienie lub połączenie ochronne obudowy zespołu",
+        "Wyłącznie przez zastosowanie izolacji podwójnej w kablu przedłużającym"
+      ],
+      "poprawna": 2,
+      "wyjasnienie": "Zespół przenośny jest źródłem, które trzeba potraktować jak każdą inną instalację — z zabezpieczeniem różnicowoprądowym i skutecznym uziemieniem części przewodzących dostępnych, zgodnie z instrukcją producenta.",
+      "podstawa": "PN60364"
+    },
+    {
+      "id": "V-19",
+      "dzial": "V",
+      "zakres": [
+        "D"
+      ],
+      "pytanie": "Co obejmuje okresowa (np. comiesięczna) kontrola zespołu prądotwórczego pracującego jako rezerwa awaryjna?",
+      "odpowiedzi": [
+        "Nic — rezerwowy zespół kontroluje się dopiero przy realnym zaniku zasilania",
+        "Wyłącznie wymianę oleju silnikowego",
+        "M.in. stan akumulatora rozruchowego, zapas paliwa i oleju, czystość filtrów, pomiar rezystancji izolacji oraz sprawdzenie działania układu SZR",
+        "Wyłącznie odczyt licznika motogodzin"
+      ],
+      "poprawna": 2,
+      "wyjasnienie": "Zespół rezerwowy, który stoi bezczynnie miesiącami, musi być regularnie sprawdzany i uruchamiany próbnie pod obciążeniem — inaczej awaria (rozładowany akumulator, zapchany filtr, zablokowana automatyka) ujawni się dopiero w chwili rzeczywistej awarii sieci, gdy jest już za późno.",
+      "podstawa": "BHP2019"
+    },
+    {
+      "id": "V-20",
+      "dzial": "V",
+      "zakres": [
+        "D",
+        "E"
+      ],
+      "pytanie": "Czy podczas pracy zespołu prądotwórczego wolno wymieniać bezpieczniki lub wykonywać naprawy elektryczne?",
+      "odpowiedzi": [
+        "Tak, pod warunkiem stania na macie izolacyjnej",
+        "Zależy wyłącznie od mocy zespołu",
+        "Tak, jeśli wykonuje je osoba z uprawnieniami E",
+        "Nie — naprawy i wymianę bezpieczników wykonuje się wyłącznie po zatrzymaniu zespołu i odłączeniu go od napięcia"
+      ],
+      "poprawna": 3,
+      "wyjasnienie": "Praca pod napięciem przy obracających się częściach i gorącym silniku łączy ryzyko porażenia z ryzykiem mechanicznym i poparzeniem. Zasada jest taka sama jak przy każdym innym urządzeniu elektroenergetycznym: naprawy — po wyłączeniu i odłączeniu napięcia.",
+      "podstawa": "BHP2019"
+    },
+    {
+      "id": "III-14",
+      "dzial": "III",
+      "zakres": [
+        "D",
+        "E"
+      ],
+      "pytanie": "Co jest typowym przykładem przestrzeni zaliczanej do strefy 0?",
+      "odpowiedzi": [
+        "Otoczenie zaworu bezpieczeństwa, który otwiera się sporadycznie",
+        "Wnętrze zbiornika lub reaktora, w którym atmosfera wybuchowa występuje stale albo przez długi czas",
+        "Miejsce okresowego napełniania małych, szczelnych pojemników",
+        "Pomieszczenie z dobrą, ciągłą wentylacją mechaniczną"
+      ],
+      "poprawna": 1,
+      "wyjasnienie": "Strefa 0 to wnętrza urządzeń procesowych (zbiorniki, reaktory), gdzie mieszanina wybuchowa jest obecna stale lub długotrwale. Otoczenie zaworów, złączy czy miejsc krótkotrwałego uwalniania to raczej strefy 1 lub 2.",
+      "podstawa": "ATEX"
+    },
+    {
+      "id": "III-15",
+      "dzial": "III",
+      "zakres": [
+        "D"
+      ],
+      "pytanie": "Jaką orientacyjną prędkość przepływu powietrza przyjmuje się jako granicę „skutecznej wentylacji”, ograniczającej zasięg strefy zagrożenia wybuchem?",
+      "odpowiedzi": [
+        "Powyżej ok. 2 m/s",
+        "Powyżej 10 m/s",
+        "Prędkość przepływu nie ma znaczenia dla klasyfikacji stref",
+        "Powyżej 0,1 m/s"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Skuteczna wentylacja rozprasza i rozcieńcza obłok gazu lub pary na tyle szybko, że stężenie nie osiąga dolnej granicy wybuchowości poza bezpośrednim otoczeniem źródła emisji, co pozwala zawęzić zasięg strefy.",
+      "podstawa": "ATEX"
+    },
+    {
+      "id": "III-16",
+      "dzial": "III",
+      "zakres": [
+        "D"
+      ],
+      "pytanie": "Czym różnią się kategorie M1 i M2 urządzeń grupy I (przeznaczonych do wyrobisk górniczych zagrożonych metanem)?",
+      "odpowiedzi": [
+        "M1 dotyczy niskiego napięcia, M2 wysokiego",
+        "Obie kategorie zapewniają identyczny poziom ochrony",
+        "M1 dotyczy urządzeń przenośnych, M2 stacjonarnych",
+        "M1 zapewnia bardzo wysoki poziom ochrony i może pozostać czynne nawet po wystąpieniu atmosfery wybuchowej, M2 należy wyłączyć z chwilą jej wystąpienia"
+      ],
+      "poprawna": 3,
+      "wyjasnienie": "W grupie I (górnictwo) kategoria M1 to najwyższy poziom ochrony — urządzenie ma pozostać bezpieczne nawet w obecności metanu i pyłu węglowego. Kategoria M2 wymaga odłączenia zasilania natychmiast po wykryciu zagrożenia.",
+      "podstawa": "ATEX"
+    },
+    {
+      "id": "III-17",
+      "dzial": "III",
+      "zakres": [
+        "D",
+        "E"
+      ],
+      "pytanie": "Co oznacza litera „X” umieszczona po numerze certyfikatu (świadectwa badania typu WE) urządzenia przeciwwybuchowego?",
+      "odpowiedzi": [
+        "Urządzenie jest jedynie komponentem i wymaga dalszej certyfikacji po zabudowaniu",
+        "Urządzenie przeznaczone jest wyłącznie do stref 20/21/22",
+        "Urządzenie nie posiada ważnego certyfikatu",
+        "Urządzenie podlega specjalnym warunkom bezpiecznego stosowania, wyszczególnionym w certyfikacie"
+      ],
+      "poprawna": 3,
+      "wyjasnienie": "„X” zobowiązuje użytkownika do zapoznania się z dodatkowymi warunkami z certyfikatu (np. ograniczenia temperatury, sposobu montażu). Odrębny symbol „U” oznacza natomiast komponent Ex, który sam w sobie nie jest kompletnym urządzeniem.",
+      "podstawa": "ATEX"
+    },
+    {
+      "id": "III-18",
+      "dzial": "III",
+      "zakres": [
+        "D",
+        "E"
+      ],
+      "pytanie": "Jak dobiera się dopuszczalną temperaturę powierzchni urządzenia pracującego w atmosferze zagrożonej wybuchem pyłu?",
+      "odpowiedzi": [
+        "Wystarczy, że jest niższa niż 100°C, niezależnie od rodzaju pyłu",
+        "Musi być niższa od temperatury żarzenia warstwy pyłu (z odpowiednim marginesem) i nie przekraczać części temperatury zapłonu obłoku pyłu",
+        "Dobiera się ją wyłącznie na podstawie napięcia znamionowego urządzenia",
+        "Zapłon pyłów zależy tylko od wilgotności, temperatura powierzchni nie ma znaczenia"
+      ],
+      "poprawna": 1,
+      "wyjasnienie": "Pyły mogą zapłonić się zarówno od żarzącej się warstwy osiadłej na gorącej powierzchni, jak i od kontaktu obłoku z gorącą powierzchnią — dlatego dobór klasy temperaturowej uwzględnia oba te mechanizmy z odpowiednim marginesem bezpieczeństwa.",
+      "podstawa": "ATEX"
+    },
+    {
+      "id": "III-19",
+      "dzial": "III",
+      "zakres": [
+        "D"
+      ],
+      "pytanie": "Jakie dodatkowe dane, oprócz zwykłych parametrów elektrycznych, musi zawierać tabliczka znamionowa urządzenia przeciwwybuchowego?",
+      "odpowiedzi": [
+        "Tabliczka znamionowa urządzeń Ex nie różni się niczym od zwykłych urządzeń elektrycznych",
+        "Wyłącznie nazwę producenta",
+        "Wyłącznie datę produkcji",
+        "Pełne oznaczenie Ex (grupę, kategorię, rodzaj ochrony, klasę temperaturową), numer certyfikatu i jednostki notyfikowanej oraz dopuszczalny zakres temperatury otoczenia"
+      ],
+      "poprawna": 3,
+      "wyjasnienie": "Pełne oznaczenie Ex identyfikuje, do jakiej strefy, grupy gazów/pyłów i klasy temperaturowej urządzenie zostało dopuszczone. Standardowy zakres temperatury otoczenia to zwykle −20…+40°C — szerszy zakres wymaga odrębnego oznaczenia.",
+      "podstawa": "ATEX"
+    },
+    {
+      "id": "III-20",
+      "dzial": "III",
+      "zakres": [
+        "D",
+        "E"
+      ],
+      "pytanie": "W jakim układzie sieci i jakim przewodem zaleca się zasilać urządzenia w przestrzeni zagrożonej wybuchem?",
+      "odpowiedzi": [
+        "W układzie TN-C, gdzie funkcję N i PE pełni wspólny przewód PEN",
+        "W dowolnym układzie, jeśli tylko obudowa urządzenia jest uziemiona",
+        "W układzie TN-S, przewodem wielożyłowym z odrębnym, nieprzerywalnym przewodem ochronnym PE",
+        "W układzie IT bez kontroli stanu izolacji"
+      ],
+      "poprawna": 2,
+      "wyjasnienie": "W układzie TN-C uszkodzenie wspólnego przewodu PEN może podać niebezpieczny potencjał na obudowę bez zadziałania zabezpieczenia — w strefie zagrożonej wybuchem to niedopuszczalne ryzyko. Dlatego wymaga się rozdzielonych przewodów N i PE (układ TN-S).",
+      "podstawa": "PN60364"
+    },
+    {
+      "id": "III-21",
+      "dzial": "III",
+      "zakres": [
+        "D"
+      ],
+      "pytanie": "Jaki jest podstawowy wymóg dotyczący prowadzenia przewodów obwodu iskrobezpiecznego „i”?",
+      "odpowiedzi": [
+        "Muszą być prowadzone wyłącznie w rurach stalowych",
+        "Nie mogą być prowadzone wspólnie (w tym samym kablu wielożyłowym czy korytku) z przewodami obwodów nieiskrobezpiecznych",
+        "Mogą być dowolnie łączone z innymi obwodami, jeśli są tego samego producenta",
+        "Muszą mieć przekrój większy niż przewody siłowe"
+      ],
+      "poprawna": 1,
+      "wyjasnienie": "Rozdzielenie fizyczne i galwaniczne chroni obwód iskrobezpieczny przed przeniesieniem energii z obwodu „zwykłego”, co unieważniłoby jego ochronę. W praktyce oznacza to osobne, zwykle niebiesko oznaczone kable i korytka.",
+      "podstawa": "ATEX"
+    },
+    {
+      "id": "III-22",
+      "dzial": "III",
+      "zakres": [
+        "D"
+      ],
+      "pytanie": "Jak często, co do zasady, wykonuje się oględziny (bieżącą kontrolę) urządzeń pracujących w przestrzeni zagrożonej wybuchem?",
+      "odpowiedzi": [
+        "Raz na pięć lat",
+        "Nie rzadziej niż raz w miesiącu",
+        "Raz w roku, razem z przeglądem rocznym",
+        "Tylko po zgłoszonej awarii"
+      ],
+      "poprawna": 1,
+      "wyjasnienie": "Oględziny bieżące (stan obudowy, dławików, temperatur, wskazań aparatury) wykonuje się znacznie częściej niż pełny przegląd okresowy — typowo co miesiąc — właśnie po to, żeby wychwycić uszkodzenia, zanim staną się źródłem zapłonu.",
+      "podstawa": "ATEX"
+    },
+    {
+      "id": "III-23",
+      "dzial": "III",
+      "zakres": [
+        "D"
+      ],
+      "pytanie": "Kiedy urządzenie przeciwwybuchowe z uszkodzonymi żebrami chłodzącymi obudowy ognioszczelnej należy wycofać z eksploatacji?",
+      "odpowiedzi": [
+        "Gdy ubytek powierzchni chłodzącej przekroczy wartość dopuszczalną określoną przez producenta dla danej klasy temperaturowej urządzenia",
+        "Dopiero gdy obudowa przestanie się w ogóle chłodzić",
+        "Po każdym, nawet najmniejszym otarciu żebra",
+        "Nigdy — żebra chłodzące nie mają znaczenia dla bezpieczeństwa przeciwwybuchowego"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Ubytek żeber ogranicza odprowadzanie ciepła, co podnosi temperaturę powierzchni urządzenia. Producent określa, jaki ubytek jest jeszcze dopuszczalny bez utraty klasy temperaturowej — po jego przekroczeniu urządzenie traci gwarantowany poziom bezpieczeństwa.",
+      "podstawa": "ATEX"
+    },
+    {
+      "id": "III-24",
+      "dzial": "III",
+      "zakres": [
+        "D",
+        "E"
+      ],
+      "pytanie": "Czy personel eksploatacyjny (bez specjalnych uprawnień producenta) może wymienić uszkodzoną, oryginalną część zamienną w urządzeniu przeciwwybuchowym?",
+      "odpowiedzi": [
+        "Tak, dowolną częścią zastępczą, jeśli pasuje wymiarowo",
+        "Tak, w zakresie zwykłej konserwacji z użyciem oryginalnych części zamiennych — ale naprawy przywracające parametry ochrony przeciwwybuchowej (np. szczelin ognioszczelnych) wymagają podmiotu specjalistycznego",
+        "Nie, w żadnym wypadku, każda ingerencja wymaga producenta",
+        "Tylko jeśli urządzenie znajduje się poza strefą zagrożoną w danym momencie"
+      ],
+      "poprawna": 1,
+      "wyjasnienie": "Konserwacja (czyszczenie, dokręcenie, wymiana zużytej, oryginalnej części wg instrukcji) mieści się w kompetencjach obsługi. Naprawa, która zmienia parametry decydujące o ochronie przeciwwybuchowej, musi być wykonana i udokumentowana przez podmiot do tego uprawniony.",
+      "podstawa": "ATEX"
+    },
+    {
+      "id": "III-25",
+      "dzial": "III",
+      "zakres": [
+        "D"
+      ],
+      "pytanie": "Co należy sprawdzić przed pierwszym uruchomieniem nowo zamontowanego urządzenia przeciwwybuchowego, jeszcze przed włączeniem go w przestrzeni zagrożonej?",
+      "odpowiedzi": [
+        "Zgodność tabliczki znamionowej i oznaczenia Ex z dokumentacją i wymaganą strefą oraz stan obudowy i dławików kablowych — najpierw poza strefą zagrożoną, dopiero potem próbę funkcjonalną na miejscu",
+        "Wyłącznie poprawność podłączenia przewodu ochronnego PE",
+        "Nic — wystarczy sam fakt posiadania certyfikatu przez producenta",
+        "Wyłącznie napięcie zasilania"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Dopuszczenie urządzenia Ex do ruchu poprzedza sprawdzenie, czy jego klasyfikacja (grupa, kategoria, klasa temperaturowa) odpowiada faktycznej strefie, w której ma pracować, oraz oględziny mechaniczne obudowy i szczelności wprowadzeń kablowych.",
+      "podstawa": "ATEX"
     }
   ]
 }

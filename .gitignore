@@ -6,6 +6,10 @@ egzaminy/
 *.log
 *.out
 
+# Skany platnych/komercyjnych publikacji — wylacznie do wlasnego uzytku,
+# nigdy do publicznego repo (patrz zastrzezenie w README).
+/zeszyt */
+
 # Android
 android/.gradle/
 android/build/
